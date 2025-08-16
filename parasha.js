@@ -144,7 +144,8 @@ var parasha = ""
     parasha=parasha4717 
  }
  if (dia==16) {
-    parasha=parasha4616 
+    parasha=parasha4717 
  }
 export {parasha}
+
 
