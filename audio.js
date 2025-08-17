@@ -16,7 +16,7 @@ var audio =[
     "",//14
     "",//15
     "",//16
-    "https://github.com/Avoz-que-clama-no-desert/audios/blob/main/deuteronomio11.mp3",//17
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio11.mp3",//17
     "",//18
     "",//19
     "",//20
@@ -36,3 +36,4 @@ var audio =[
 ]
 
 export {audio}
+
