@@ -65,28 +65,33 @@ var parasha4719 =[
 
 ]
 
-var parasha4718p=[
+var parasha4720=[
     "Parashá 47",
-    "dia 18 tarde",
-    "Deuteronômio 13",
-    "¹ Quando profeta ou sonhador de sonhos se levantar no meio de ti, e te der um sinal ou prodígio,  ",
-    "² E suceder o tal sinal ou prodígio, de que te houver falado, dizendo: Vamos após outros deuses, que não conheceste, e sirvamo-los; ",
-    "³ Não ouvirás as palavras daquele profeta ou sonhador de sonhos; porquanto o Senhor vosso Deus vos prova, para saber se amais o Senhor vosso Deus com todo o vosso coração, e com toda a vossa alma. ",
-    "⁴ Após o Senhor vosso Deus andareis, e a ele temereis, e os seus mandamentos guardareis, e a sua voz ouvireis, e a ele servireis, e a ele vos achegareis. ",
-    "⁵ E aquele profeta ou sonhador de sonhos morrerá, pois falou rebeldia contra o Senhor vosso Deus, que vos tirou da terra do Egito, e vos resgatou da casa da servidão, para te apartar do caminho que te ordenou o Senhor teu Deus, para andares nele: assim tirarás o mal do meio de ti. ",
-    "⁶ Quando te incitar teu irmão, filho da tua mãe, ou teu filho, ou tua filha, ou a mulher do teu seio, ou teu amigo, que te é como a tua alma, dizendo-te em segredo: Vamos, e sirvamos a outros deuses que não conheceste, nem tu nem teus pais; ",
-    "⁷ Dentre os deuses dos povos que estão em redor de vós, perto ou longe de ti, desde uma extremidade da terra até à outra extremidade; ",
-    "⁸ Não consentirás com ele, nem o ouvirás; nem o teu olho o poupará, nem terás piedade dele, nem o esconderás; ",
-    "⁹ Mas certamente o matarás; a tua mão será a primeira contra ele, para o matar; e depois a mão de todo o povo. ",
-    "¹⁰ E o apedrejarás, até que morra, pois te procurou apartar do Senhor teu Deus, que te tirou da terra do Egito, da casa da servidão; ",
-    "¹¹ Para que todo o Israel o ouça e o tema, e não torne a fazer semelhante maldade no meio de ti. ",
-    "¹² Quando ouvires dizer, de alguma das tuas cidades que o Senhor teu Deus te dá para ali habitar: ",
-    "¹³ Uns homens, filhos de Belial, que saíram do meio de ti, incitaram os moradores da sua cidade, dizendo: Vamos, e sirvamos a outros deuses que não conhecestes; ",
-    "¹⁴ Então inquirirás e investigarás, e com diligência perguntarás; e eis que, sendo verdade, e certo que se fez tal abominação no meio de ti; ",
-    "¹⁵ Certamente ferirás, ao fio da espada, os moradores daquela cidade, destruindo a ela e a tudo o que nela houver, até os animais. ",
-    "¹⁶ E ajuntarás todo o seu despojo no meio da sua praça; e a cidade e todo o seu despojo queimarás totalmente para o Senhor teu Deus, e será montão perpétuo, nunca mais se edificará. ",
-    "¹⁷ Também não se pegará à tua mão nada do anátema, para que o Senhor se aparte do ardor da sua ira, e te faça misericórdia, e tenha piedade de ti, e te multiplique, como jurou a teus pais; ",
-    "¹⁸ Quando ouvires a voz do Senhor teu Deus, para guardares todos os seus mandamentos que hoje te ordeno; para fazeres o que for reto aos olhos do Senhor teu Deus. ",
+    "dia 20",
+    "Deuteronômio 15",
+    "¹ Ao fim dos sete anos farás remissão. ",
+    "² Este, pois, é o modo da remissão: todo o credor remitirá o que emprestou ao seu próximo; não o exigirá do seu próximo ou do seu irmão, pois a remissão do Senhor é apregoada. ",
+    "³ Do estrangeiro o exigirás; mas o que tiveres em poder de teu irmão a tua mão o remitirá. ",
+    "⁴ Exceto quando não houver entre ti pobre algum; pois o Senhor abundantemente te abençoará na terra que o Senhor teu Deus te dará por herança, para possuí-la. ",
+    "⁵ Se somente ouvires diligentemente a voz do Senhor teu Deus para cuidares em cumprir todos estes mandamentos que hoje te ordeno; ",
+    "⁶ Porque o Senhor teu Deus te abençoará, como te tem falado; assim, emprestarás a muitas nações, mas não tomarás empréstimos; e dominarás sobre muitas nações, mas elas não dominarão sobre ti. ",
+    "⁷ Quando entre ti houver algum pobre, de teus irmãos, em alguma das tuas portas, na terra que o Senhor teu Deus te dá, não endurecerás o teu coração, nem fecharás a tua mão a teu irmão que for pobre; ",
+    "⁸ Antes lhe abrirás de todo a tua mão, e livremente lhe emprestarás o que lhe falta, quanto baste para a sua necessidade. ",
+    "⁹ Guarda-te, que não haja palavra perversa no teu coração, dizendo: Vai-se aproximando o sétimo ano, o ano da remissão; e que o teu olho seja maligno para com teu irmão pobre, e não lhe dês nada; e que ele clame contra ti ao Senhor, e que haja em ti pecado. ",
+    "¹⁰ Livremente lhe darás, e que o teu coração não seja maligno, quando lhe deres; pois por esta causa te abençoará o Senhor teu Deus em toda a tua obra, e em tudo o que puseres a tua mão. ",
+    "¹¹ Pois nunca deixará de haver pobre na terra; pelo que te ordeno, dizendo: Livremente abrirás a tua mão para o teu irmão, para o teu necessitado, e para o teu pobre na tua terra. ",
+    "¹² Quando teu irmão hebreu ou irmã hebreia se vender a ti, seis anos te servirá, mas no sétimo ano o deixarás ir livre. ",
+    "¹³ E, quando o deixares ir livre, não o despedirás vazio. ",
+    "¹⁴ Liberalmente o fornecerás do teu rebanho, e da tua eira, e do teu lagar; daquilo com que o Senhor teu Deus te tiver abençoado lhe darás. ",
+    "¹⁵ E lembrar-te-ás de que foste servo na terra do Egito, e de que o Senhor teu Deus te resgatou; portanto hoje te ordeno isso. ",
+    "¹⁶ Porém se ele te disser: Não sairei de ti; porquanto te amo a ti, e a tua casa, por estar bem contigo; ",
+    "¹⁷ Então tomarás uma sovela, e lhe furarás a orelha à porta, e teu servo será para sempre; e também assim farás à tua serva. ",
+    "¹⁸ Não seja duro aos teus olhos, quando despedi-lo liberto de ti; pois seis anos te serviu em equivalência ao dobro do salário do diarista; assim o Senhor teu Deus te abençoará em tudo o que fizeres. ",
+    "¹⁹ Todo o primogênito que nascer das tuas vacas e das tuas ovelhas, o macho santificarás ao Senhor teu Deus; com o primogênito do teu boi não trabalharás, nem tosquiarás o primogênito das tuas ovelhas. ",
+    "²⁰ Perante o Senhor teu Deus os comerás de ano em ano, no lugar que o Senhor escolher, tu e a tua casa. ",
+    "²¹ Porém, havendo nele algum defeito, se for coxo, ou cego, ou tiver qualquer defeito, não o sacrificarás ao Senhor teu Deus. ",
+    "²² Nas tuas portas o comerás; o imundo e o limpo o comerão também, como da corça ou do veado. ",
+    "²³ Somente o seu sangue não comerás; sobre a terra o derramarás como água. ",
     "",
     "",
     "",
@@ -130,44 +135,114 @@ var parasha4718p=[
     "",
 
 ]
-
-
-var parasha4718m=[
+var parasha4721 =[
     "Parashá 47",
-    "dia 18 manhã",
-    "Deuteronômio 12",
-    "¹ Estes são os estatutos e os juízos que tereis cuidado em cumprir na terra que vos deu o Senhor Deus de vossos pais, para a possuir todos os dias que viverdes sobre a terra. ",
-    "² Totalmente destruireis todos os lugares, onde as nações que possuireis serviram os seus deuses, sobre as altas montanhas, e sobre os outeiros, e debaixo de toda a árvore frondosa; ",
-    "³ E derrubareis os seus altares, e quebrareis as suas estátuas, e os seus bosques queimareis a fogo, e destruireis as imagens esculpidas dos seus deuses, e apagareis o seu nome daquele lugar. ",
-    "⁴ Assim não fareis ao Senhor vosso Deus; ",
-    "⁵ Mas o lugar que o Senhor vosso Deus escolher de todas as vossas tribos, para ali pôr o seu nome, buscareis, para sua habitação, e ali vireis. ",
-    "⁶ E ali trareis os vossos holocaustos, e os vossos sacrifícios, e os vossos dízimos, e a oferta alçada da vossa mão, e os vossos votos, e as vossas ofertas voluntárias, e os primogênitos das vossas vacas e das vossas ovelhas. ",
-    "⁷ E ali comereis perante o Senhor vosso Deus, e vos alegrareis em tudo em que puserdes a vossa mão, vós e as vossas casas, no que abençoar o Senhor vosso Deus. ",
-    "⁸ Não fareis conforme a tudo o que hoje fazemos aqui, cada qual tudo o que bem parece aos seus olhos. ",
-    "⁹ Porque até agora não entrastes no descanso e na herança que vos dá o Senhor vosso Deus. ",
-    "¹⁰ Mas passareis o Jordão, e habitareis na terra que vos fará herdar o Senhor vosso Deus; e vos dará repouso de todos os vossos inimigos em redor, e morareis seguros. ",
-    "¹¹ Então haverá um lugar que escolherá o Senhor vosso Deus para ali fazer habitar o seu nome; ali trareis tudo o que vos ordeno; os vossos holocaustos, e os vossos sacrifícios, e os vossos dízimos, e a oferta alçada da vossa mão, e toda a escolha dos vossos votos que fizerdes ao Senhor.",
-    "¹² E vos alegrareis perante o Senhor vosso Deus, vós, e vossos filhos, e vossas filhas, e os vossos servos, e as vossas servas, e o levita que está dentro das vossas portas; pois convosco não tem parte nem herança. ",
-    "¹³ Guarda-te, que não ofereças os teus holocaustos em todo o lugar que vires; ",
-    "¹⁴ Mas no lugar que o Senhor escolher numa das tuas tribos ali oferecerás os teus holocaustos, e ali farás tudo o que te ordeno. ",
-    "¹⁵ Porém, conforme a todo o desejo da tua alma, matarás e comerás carne, dentro das tuas portas, segundo a bênção do Senhor teu Deus, que te dá em todas as tuas portas; o imundo e o limpo dela comerá, como do corço e do veado; ",
-    "¹⁶ Tão somente o sangue não comereis; sobre a terra o derramareis como água. ",
-    "¹⁷ Dentro das tuas portas não poderás comer o dízimo do teu grão, nem do teu mosto, nem do teu azeite, nem os primogênitos das tuas vacas, nem das tuas ovelhas; nem nenhum dos teus votos, que houveres prometido, nem as tuas ofertas voluntárias, nem a oferta alçada da tua mão.",
-    "¹⁸ Mas os comerás perante o Senhor teu Deus, no lugar que escolher o Senhor teu Deus, tu, e teu filho, e a tua filha, e o teu servo, e a tua serva, e o levita que está dentro das tuas portas; e perante o Senhor teu Deus te alegrarás em tudo em que puseres a tua mão. ",
-    "¹⁹ Guarda-te, que não desampares ao levita todos os teus dias na terra. ",
-    "²⁰ Quando o Senhor teu Deus dilatar os teus termos, como te disse, e disseres: Comerei carne; porquanto a tua alma tem desejo de comer carne; conforme a todo o desejo da tua alma, comerás carne. ",
-    "²¹ Se estiver longe de ti o lugar que o Senhor teu Deus escolher, para ali pôr o seu nome, então matarás das tuas vacas e das tuas ovelhas, que o Senhor te tiver dado, como te tenho ordenado; e comerás dentro das tuas portas, conforme a todo o desejo da tua alma. ",
-    "²² Porém, como se come o corço e o veado, assim comerás; o imundo e o limpo também comerão deles. ",
-    "²³ Somente esforça-te para que não comas o sangue; pois o sangue é vida; pelo que não comerás a vida com a carne; ",
-    "²⁴ Não o comerás; na terra o derramarás como água. ",
-    "²⁵ Não o comerás; para que bem te suceda a ti, e a teus filhos, depois de ti, quando fizeres o que for reto aos olhos do Senhor. ",
-    "²⁶ Porém, as coisas santas que tiveres, e os teus votos tomarás, e virás ao lugar que o Senhor escolher. ",
-    "²⁷ E oferecerás os teus holocaustos, a carne e o sangue sobre o altar do Senhor teu Deus; e o sangue dos teus sacrifícios se derramará sobre o altar do Senhor teu Deus; porém a carne comerás. ",
-    "²⁸ Guarda e ouve todas estas palavras que te ordeno, para que bem te suceda a ti e a teus filhos depois de ti para sempre, quando fizeres o que for bom e reto aos olhos do Senhor teu Deus. ",
-    "²⁹ Quando o Senhor teu Deus desarraigar de diante de ti as nações, aonde vais a possuí-las, e as possuíres e habitares na sua terra, ",
-    "³⁰ Guarda-te, que não te enlaces seguindo-as, depois que forem destruídas diante de ti; e que não perguntes acerca dos seus deuses, dizendo: Assim como serviram estas nações os seus deuses, do mesmo modo também farei eu. ",
-    "³¹ Assim não farás ao Senhor teu Deus; porque tudo o que é abominável ao Senhor, e que ele odeia, fizeram eles a seus deuses; pois até seus filhos e suas filhas queimaram no fogo aos seus deuses. ",
-    "³² Tudo o que eu te ordeno, observarás para fazer; nada lhe acrescentarás nem diminuirás. ",
+    "dia 21",
+    "Deuteronômio 16 v 1 ate 17",
+    "¹ Guarda o mês de Abibe, e celebra a páscoa ao Senhor teu Deus; porque no mês de Abibe o Senhor teu Deus te tirou do Egito, de noite. ",
+    "² Então sacrificarás a páscoa ao Senhor teu Deus, das ovelhas e das vacas, no lugar que o Senhor escolher para ali fazer habitar o seu nome. ",
+    "³ Nela não comerás levedado; sete dias nela comerás pães ázimos, pão de aflição (porquanto apressadamente saíste da terra do Egito), para que te lembres do dia da tua saída da terra do Egito, todos os dias da tua vida. ",
+    "⁴ Levedado não aparecerá contigo por sete dias em todos os teus termos; também da carne que matares à tarde, no primeiro dia, nada ficará até à manhã. ",
+    "⁵ Não poderás sacrificar a páscoa em nenhuma das tuas portas que te dá o Senhor teu Deus; ",
+    "⁶ Senão no lugar que escolher o Senhor teu Deus, para fazer habitar o seu nome, ali sacrificarás a páscoa à tarde, ao pôr do sol, ao tempo determinado da tua saída do Egito. ",
+    "⁷ Então a cozerás, e comerás no lugar que escolher o Senhor teu Deus; depois voltarás pela manhã, e irás às tuas tendas. ",
+    "⁸ Seis dias comerás pães ázimos e no sétimo dia é solenidade ao Senhor teu Deus; nenhum trabalho farás. ",
+    "⁹ Sete semanas contarás; desde que a foice começar na seara iniciarás a contar as sete semanas. ",
+    "¹⁰ Depois celebrarás a festa das semanas ao Senhor teu Deus; o que deres será oferta voluntária da tua mão, segundo o Senhor teu Deus te houver abençoado. ",
+    "¹¹ E te alegrarás perante o Senhor teu Deus, tu, e teu filho, e tua filha, e o teu servo, e a tua serva, e o levita que está dentro das tuas portas, e o estrangeiro, e o órfão, e a viúva, que estão no meio de ti, no lugar que o Senhor teu Deus escolher para ali fazer habitar o seu nome. ",
+    "¹² E lembrar-te-ás de que foste servo no Egito; e guardarás estes estatutos, e os cumprirás. ",
+    "¹³ A festa dos tabernáculos celebrarás sete dias, quando tiveres colhido da tua eira e do teu lagar. ",
+    "¹⁴ E, na tua festa, alegrar-te-ás, tu, e teu filho, e tua filha, e o teu servo, e a tua serva, e o levita, e o estrangeiro, e o órfão, e a viúva, que estão dentro das tuas portas. ",
+    "¹⁵ Sete dias celebrarás a festa ao Senhor teu Deus, no lugar que o Senhor escolher; porque o Senhor teu Deus te há de abençoar em toda a tua colheita, e em todo o trabalho das tuas mãos; por isso certamente te alegrarás. ",
+    "¹⁶ Três vezes no ano todo o homem entre ti aparecerá perante o Senhor teu Deus, no lugar que escolher, na festa dos pães ázimos, e na festa das semanas, e na festa dos tabernáculos; porém não aparecerá vazio perante o Senhor; ",
+    "¹⁷ Cada um, conforme ao dom da sua mão, conforme a bênção do Senhor teu Deus, que lhe tiver dado. ",
+    "************************************************************************************",
+    "HAFTARÁ RE´EH",
+    "iSAÍAS 54 v 11 ",
+    "Isaías 54:11 Tu, oprimida, arrojada com a tormenta e desconsolada, eis que eu assentarei as tuas pedras com todo o ornamento, e te fundarei sobre as safiras. ",
+    "************************************************************************************",
+    "ISAÍAS 55 v 5",
+    "Isaías 55:5 Eis que chamarás a uma nação que não conheces, e uma nação que nunca te conheceu correrá para ti, por amor do Senhor teu Deus, e do Santo de Israel; porque ele te glorificou. ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",   
+]
+var parasha4722=[
+    "Parashá 47",
+    "dia 22",
+    "ESCRITOS NAZARENOS",
+    " 1º CORINTIOS 5 V 9 AO 13",
+    "9 Já por carta vos tenho escrito, que não vos associeis com os fornicadores;",
+    "¹⁰ Ainda que não inteiramente com os fornicadores deste mundo, ou com os avarentos, ou com os roubadores, ou com os idólatras; porque então vos seria necessário sair do mundo. ",
+    "¹¹ Mas agora vos escrevi que não vos associeis com aquele que, dizendo-se irmão, for fornicador, ou avarento, ou idólatra, ou maldizente, ou beberrão, ou roubador; com o tal nem ainda comais. ",
+    "¹² Porque, que tenho eu em julgar também os que estão de fora? Não julgais vós os que estão dentro? ",
+    "¹³ Mas Deus julga os que estão de fora. Tirai, pois, dentre vós a esse iníquo. ",
+    "*****************************************************************",
+    " 1º JOÃO 4 V 1 AO 6",
+    "¹ Amados, não creiais a todo o espírito, mas provai se os espíritos são de Deus, porque já muitos falsos profetas se têm levantado no mundo. ",
+    "² Nisto conhecereis o Espírito de Deus: Todo o espírito que confessa que Jesus Cristo veio em carne é de Deus; ",
+    "³ E todo o espírito que não confessa que Jesus Cristo veio em carne não é de Deus; mas este é o espírito do anticristo, do qual já ouvistes que há de vir, e eis que já agora está no mundo. ",
+    "⁴ Filhinhos, sois de Deus, e já os tendes vencido; porque maior é o que está em vós do que o que está no mundo. ",
+    "⁵ Do mundo são, por isso falam do mundo, e o mundo os ouve. ",
+    "⁶ Nós somos de Deus; aquele que conhece a Deus ouve-nos; aquele que não é de Deus não nos ouve. Nisto conhecemos nós o espírito da verdade e o espírito do erro. ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
     "",
     "",
     "",
@@ -204,80 +279,15 @@ var parasha4718m=[
     "",
     "",
 
+    
+    
 ]
 
 
-var parasha4717 =[
+
+var parasha4723 =[
     "Parashá 47",
-    "dia 17",
-    "Deuteronômio 11",
-    "¹ Amarás, pois, ao Senhor teu Deus, e guardarás as suas ordenanças, e os seus estatutos, e os seus juízos, e os seus mandamentos, todos os dias. ",
-    "² E hoje sabereis que falo, não com vossos filhos, que o não sabem, e não viram a instrução do Senhor vosso Deus, a sua grandeza, a sua mão forte, e o seu braço estendido; ",
-    "³ Nem tampouco os seus sinais, nem os seus feitos, que fez no meio do Egito a Faraó, rei do Egito, e a toda a sua terra; ",
-    "⁴ Nem o que fez ao exército dos egípcios, aos seus cavalos e aos seus carros, fazendo passar sobre eles as águas do Mar Vermelho quando vos perseguiam, e como o Senhor os destruiu, até ao dia de hoje; ",
-    "⁵ Nem o que vos fez no deserto, até que chegastes a este lugar; ",
-    "⁶ E o que fez a Datã e a Abirão, filhos de Eliabe, filho de Rúben; como a terra abriu a sua boca e os tragou com as suas casas e com as suas tendas, como também tudo o que subsistia, e lhes pertencia, no meio de todo o Israel; ",
-    "⁷ Porquanto os vossos olhos são os que viram toda a grande obra que fez o Senhor. ",
-    "⁸ Guardai, pois, todos os mandamentos que eu vos ordeno hoje, para que sejais fortes, e entreis, e ocupeis a terra que passais a possuir; ",
-    "⁹ E para que prolongueis os dias na terra que o Senhor jurou dar a vossos pais e à sua descendência, terra que mana leite e mel. ",
-    "¹⁰ Porque a terra que passas a possuir não é como a terra do Egito, de onde saíste, em que semeavas a tua semente, e a regavas com o teu pé, como a uma horta. ",
-    "¹¹ Mas a terra que passais a possuir é terra de montes e de vales; da chuva dos céus beberá as águas; ",
-    "¹² Terra de que o Senhor teu Deus tem cuidado; os olhos do Senhor teu Deus estão sobre ela continuamente, desde o princípio até ao fim do ano. ",
-    "¹³ E será que, se diligentemente obedecerdes a meus mandamentos que hoje vos ordeno, de amar ao Senhor vosso Deus, e de o servir de todo o vosso coração e de toda a vossa alma,",
-    "¹⁴ Então darei a chuva da vossa terra a seu tempo, a temporã e a serôdia, para que recolhais o vosso grão, e o vosso mosto e o vosso azeite. ",
-    "¹⁵ E darei erva no teu campo aos teus animais, e comerás, e fartar-te-ás. ",
-    "¹⁶ Guardai-vos, que o vosso coração não se engane, e vos desvieis, e sirvais a outros deuses, e vos inclineis perante eles; ",
-    "¹⁷ E a ira do Senhor se acenda contra vós, e feche ele os céus, e não haja água, e a terra não dê o seu fruto, e cedo pereçais da boa terra que o Senhor vos dá. ",
-    "¹⁸ Ponde, pois, estas minhas palavras no vosso coração e na vossa alma, e atai-as por sinal na vossa mão, para que estejam por frontais entre os vossos olhos. ",
-    "¹⁹ E ensinai-as a vossos filhos, falando delas assentado em tua casa, e andando pelo caminho, e deitando-te, e levantando-te;",
-    "²⁰ E escreve-as nos umbrais de tua casa, e nas tuas portas; ",
-    "²¹ Para que se multipliquem os vossos dias e os dias de vossos filhos na terra que o Senhor jurou a vossos pais dar-lhes, como os dias dos céus sobre a terra.",
-    "²² Porque se diligentemente guardardes todos estes mandamentos, que vos ordeno para os guardardes, amando ao Senhor vosso Deus, andando em todos os seus caminhos, e a ele vos achegardes, ",
-    "²³ Também o Senhor, de diante de vós, lançará fora todas estas nações, e possuireis nações maiores e mais poderosas do que vós. ",
-    "²⁴ Todo o lugar que pisar a planta do vosso pé será vosso; desde o deserto, e desde o Líbano, desde o rio, o rio Eufrates, até ao mar ocidental, será o vosso termo. ",
-    "²⁵ Ninguém resistirá diante de vós; o Senhor vosso Deus porá sobre toda a terra, que pisardes, o vosso terror e o temor de vós, como já vos tem dito. ",
-    "²⁶ Eis que hoje eu ponho diante de vós a bênção e a maldição; ",
-    "²⁷ A bênção, quando cumprirdes os mandamentos do Senhor vosso Deus, que hoje vos mando; ",
-    "²⁸ Porém a maldição, se não cumprirdes os mandamentos do Senhor vosso Deus, e vos desviardes do caminho que hoje vos ordeno, para seguirdes outros deuses que não conhecestes. ",
-    "²⁹ E será que, quando o Senhor teu Deus te introduzir na terra, a que vais para possuí-la, então pronunciarás a bênção sobre o monte Gerizim, e a maldição sobre o monte Ebal. ",
-    "³⁰ Porventura não estão eles além do Jordão, junto ao caminho do pôr do sol, na terra dos cananeus, que habitam na campina defronte de Gilgal, junto aos carvalhais de Moré? ",
-    "³¹ Porque passareis o Jordão para entrardes a possuir a terra, que vos dá o Senhor vosso Deus; e a possuireis, e nela habitareis. ",
-    "³² Tende, pois, cuidado em cumprir todos os estatutos e os juízos, que eu hoje vos proponho. ",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",//63
-
-]
-
-var parasha4616 =[
-    "Parashá 46",
-    "dia 16",
+    "dia 23",
     "Shabbat Shalom á todos",
     "Hoje as 13:00 hrs ",
     "Reunião na congregação",
@@ -351,25 +361,39 @@ var parasha = ""
 
 
 
- if (dia==17) {
+ if (dia==20) {
     
 
-    parasha=parasha4717 
+    parasha=parasha4720 
  }
- if (dia==18) {
-    if (hora<=12) {
-      parasha=parasha4718m  
-    }
-    if (hora>=12) {
-        parasha=parasha4718p 
-    }
+ if (dia==19) {
+    
+      parasha=parasha4719  
+    
      
  }
-if (dia==19) {
+ if (dia==21) {
     
+    parasha=parasha4721  
+  
+   
+}
+if (dia==22) {
+    
+    parasha=parasha4722  
+  
+   
+}
+if (dia==23) {
+    
+    parasha=parasha4723  
+  
+   
+}
 
-    parasha=parasha4719 
- }
+
+
+
 
 
 export {parasha}
