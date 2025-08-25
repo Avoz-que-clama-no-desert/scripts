@@ -194,7 +194,7 @@ var parasha4723 =[
 
 var data = new Date()
 var dia = data.getDate()
-var hora = data.getHours
+var hora = data.getHours()
 var parasha = ""
 
 
@@ -217,6 +217,7 @@ var parasha = ""
 
 
 export {parasha}
+
 
 
 
