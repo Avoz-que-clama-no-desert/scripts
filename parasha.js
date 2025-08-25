@@ -327,14 +327,14 @@ if(dia = 25){
           
        
  
- if (dia=26) {
+/* if (dia=26) {
     if (hor<11) {
       parasha=parasha4826m   
     } else {
       parasha=parasha4826t 
     }
      
- } 
+ } */
     
    
     
@@ -348,6 +348,7 @@ if(dia = 25){
 
 
 export {parasha}
+
 
 
 
