@@ -194,22 +194,24 @@ var parasha4723 =[
 
 var data = new Date()
 var dia = data.getDate()
-var hora = data.getHours()
+var hor = data.getHours()
 var parasha = ""
 
 
 
- if (dia==25) {
-    if (hora<=11) {
-     parasha=parasha4825m   
+ if (dia=25) {
+    if (hor<=12) {
+      parasha=parasha4825m
     }
-    if (hora>=11) {
+    if (hor>=12) {
         parasha=parasha4825t   
        }
+ }
+    
     
 
      
- }
+ 
 
 
 
@@ -217,9 +219,6 @@ var parasha = ""
 
 
 export {parasha}
-
-
-
 
 
 
