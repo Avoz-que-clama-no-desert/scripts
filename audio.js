@@ -3,7 +3,7 @@ var dia = data.getDate()
 var hor = data.getHours()
 
 
-var audio1 =[
+var audio =[
     "",//0
     "",//1
     "",//2
@@ -29,7 +29,7 @@ var audio1 =[
     "",//22
     "",//23
     "",//24
-    "https://s.bibliaonline.com.br/audio/play/1/acf/Deut/16/18-22/azure/en-US-OnyxTurboMultilingualNeural/audio.mp3",//25
+    "https://s.bibliaonline.com.br/audio/play/1/acf/Deut/17/_/azure/en-US-OnyxTurboMultilingualNeural/audio.mp3",//25
     "",//26
     "",//27
     "",//28
@@ -39,21 +39,10 @@ var audio1 =[
 
 
 ]
-var audio2="https://s.bibliaonline.com.br/audio/play/1/acf/Deut/17/_/azure/en-US-OnyxTurboMultilingualNeural/audio.mp3"
-
-if (dia =25) {
-  if (hor<=12) {
- var audio = audio1   
-}
-    if(hor>=12){
-        
-    var audio = audio2
-    }
-  
-}
 
 
 
 
 export {audio}
+
 
