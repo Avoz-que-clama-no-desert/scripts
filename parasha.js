@@ -203,7 +203,7 @@ var parasha = ""
     if (hora<=11) {
      parasha=parasha4825m   
     }
-    if (hora<=11) {
+    if (hora>=11) {
         parasha=parasha4825t   
        }
     
@@ -217,6 +217,7 @@ var parasha = ""
 
 
 export {parasha}
+
 
 
 
