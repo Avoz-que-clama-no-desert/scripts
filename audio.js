@@ -44,12 +44,16 @@ var audio2="https://s.bibliaonline.com.br/audio/play/1/acf/Deut/17/_/azure/en-US
 if (dia =25) {
   if (hor<=12) {
  var audio = audio1   
-}else{
-    var audio = audio2   
-}  
+}
+    if(hor>=12){
+        
+    var audio = audio2
+    }
+  
 }
 
 
 
 
 export {audio}
+
