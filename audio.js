@@ -65,7 +65,7 @@ var audio2 =[
     "",//22
     "",//23
     "",//24
-    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio10.mp3",//25
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio17.mp3",//25
     "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio19.mp3",//26
     "",//27
     "",//28
@@ -99,3 +99,4 @@ if (hor<11) {
 
 
 export {audio}
+
