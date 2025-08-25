@@ -118,7 +118,129 @@ var parasha4825t=[
     "",
     "",
     "",//63
-]   
+]
+var parasha4826m= [
+    "Parashá 48",
+    "dia 26  manhã",
+    "Deuteronômio 18",
+    "¹ Os sacerdotes levitas, toda a tribo de Levi, não terão parte nem herança com Israel; das ofertas queimadas do Senhor e da sua herança comerão. ",
+    "² Por isso não terão herança no meio de seus irmãos; o Senhor é a sua herança, como lhes tem dito. ",
+    "³ Este, pois, será o direito dos sacerdotes, a receber do povo, dos que oferecerem sacrifício, seja boi ou gado miúdo; que darão ao sacerdote a espádua e as queixadas e o bucho. ",
+    "⁴ Dar-lhe-ás as primícias do teu grão, do teu mosto e do teu azeite, e as primícias da tosquia das tuas ovelhas. ",
+    "⁵ Porque o Senhor teu Deus o escolheu de todas as tuas tribos, para que assista e sirva no nome do Senhor, ele e seus filhos, todos os dias. ",
+    "⁶ E, quando chegar um levita de alguma das tuas portas, de todo o Israel, onde habitar; e vier com todo o desejo da sua alma ao lugar que o Senhor escolheu; ",
+    "⁷ E servir no nome do Senhor seu Deus, como também todos os seus irmãos, os levitas, que assistem ali perante o Senhor, ",
+    "⁸ Igual porção comerão, além das vendas do seu patrimônio. ",
+    "⁹ Quando entrares na terra que o Senhor teu Deus te der, não aprenderás a fazer conforme as abominações daquelas nações. ",
+    "¹⁰ Entre ti não se achará quem faça passar pelo fogo a seu filho ou a sua filha, nem adivinhador, nem prognosticador, nem agoureiro, nem feiticeiro; ",
+    "¹¹ Nem encantador, nem quem consulte a um espírito adivinhador, nem mágico, nem quem consulte os mortos; ",
+    "¹² Pois todo aquele que faz tal coisa é abominação ao Senhor; e por estas abominações o Senhor teu Deus os lança fora de diante de ti.",
+    "¹³ Perfeito serás com o Senhor teu Deus. ",
+    "¹⁴ Porque estas nações, que hás de possuir, ouvem os prognosticadores e os adivinhadores; porém a ti o Senhor teu Deus não permitiu tal coisa. ",
+    "¹⁵ O Senhor teu Deus te levantará um profeta do meio de ti, de teus irmãos, como eu; a ele ouvireis; ",
+    "¹⁶ Conforme a tudo o que pediste ao Senhor teu Deus em Horebe, no dia da assembleia, dizendo: Não ouvirei mais a voz do Senhor teu Deus, nem mais verei este grande fogo, para que não morra. ",
+    "¹⁷ Então o Senhor me disse: Falaram bem naquilo que disseram. ",
+    "¹⁸ Eis lhes suscitarei um profeta do meio de seus irmãos, como tu, e porei as minhas palavras na sua boca, e ele lhes falará tudo o que eu lhe ordenar. ",
+    "¹⁹ E será que qualquer que não ouvir as minhas palavras, que ele falar em meu nome, eu o requererei dele. ",
+    "²⁰ Porém o profeta que tiver a presunção de falar alguma palavra em meu nome, que eu não lhe tenha mandado falar, ou o que falar em nome de outros deuses, esse profeta morrerá. ",
+    "²¹ E, se disseres no teu coração: Como conhecerei a palavra que o Senhor não falou? ",
+    "²² Quando o profeta falar em nome do Senhor, e essa palavra não se cumprir, nem suceder assim; esta é palavra que o Senhor não falou; com soberba a falou aquele profeta; não tenhas temor dele. ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",//63
+
+] 
+var parasha4826t=[
+    "Parashá 48",
+    "dia 26 Tarde",
+    "Deuteronômio 19",
+    "¹ Quando o Senhor teu Deus desarraigar as nações cuja terra te dará o Senhor teu Deus, e tu as possuíres, e morares nas suas cidades e nas suas casas, ",
+    "² Três cidades separarás, no meio da terra que te dará o Senhor teu Deus para a possuíres. ",
+    "³ Preparar-te-ás o caminho; e os termos da tua terra, que te fará possuir o Senhor teu Deus, dividirás em três; e isto será para que todo o homicida se acolha ali. ",
+    "⁴ E este é o caso tocante ao homicida, que se acolher ali, para que viva; aquele que por engano ferir o seu próximo, a quem não odiava antes; ",
+    "⁵ Como aquele que entrar com o seu próximo no bosque, para cortar lenha, e, pondo força na sua mão com o machado para cortar a árvore, o ferro saltar do cabo e ferir o seu próximo e este morrer, aquele se acolherá a uma destas cidades, e viverá; ",
+    "⁶ Para que o vingador do sangue não vá após o homicida, quando se enfurecer o seu coração, e o alcançar, por ser comprido o caminho, e lhe tire a vida; porque não é culpado de morte, pois o não odiava antes. ",
+    "⁷ Portanto te dou ordem, dizendo: Três cidades separarás. ",
+    "⁸ E, se o Senhor teu Deus dilatar os teus termos, como jurou a teus pais, e te der toda a terra que disse daria a teus pais ",
+    "⁹ (Quando guardares todos estes mandamentos, que hoje te ordeno, para cumpri-los, amando ao Senhor teu Deus e andando nos seus caminhos todos os dias), então acrescentarás outras três cidades além destas três. ",
+    "¹⁰ Para que o sangue inocente não se derrame no meio da tua terra, que o Senhor teu Deus te dá por herança, e haja sangue sobre ti. ",
+    "¹¹ Mas, havendo alguém que odeia a seu próximo, e lhe arma ciladas, e se levanta contra ele, e o fere mortalmente, de modo que morra, e acolhe a alguma destas cidades, ",
+    "¹² Então os anciãos da sua cidade mandarão buscá-lo; e dali o tirarão, e o entregarão na mão do vingador do sangue, para que morra. ",
+    "¹³ O teu olho não o perdoará; antes tirarás o sangue inocente de Israel, para que bem te suceda. ",
+    "¹⁴ Não mudes o limite do teu próximo, que estabeleceram os antigos na tua herança, que receberás na terra que te dá o Senhor teu Deus para a possuíres. ",
+    "¹⁵ Uma só testemunha contra alguém não se levantará por qualquer iniquidade, ou por qualquer pecado, seja qual for o pecado que cometeu; pela boca de duas testemunhas, ou pela boca de três testemunhas, se estabelecerá o fato. ",
+    "¹⁶ Quando se levantar testemunha falsa contra alguém, para testificar contra ele acerca de transgressão, ",
+    "¹⁷ Então aqueles dois homens, que tiverem a demanda, se apresentarão perante o Senhor, diante dos sacerdotes e dos juízes que houver naqueles dias. ",
+    "¹⁸ E os juízes inquirirão bem; e eis que, sendo a testemunha falsa, que testificou falsamente contra seu irmão, ",
+    "¹⁹ Far-lhe-eis como cuidou fazer a seu irmão; e assim tirarás o mal do meio de ti. ",
+    "²⁰ Para que os que ficarem o ouçam e temam, e nunca mais tornem a fazer tal mal no meio de ti. ",
+    "²¹ O teu olho não perdoará; vida por vida, olho por olho, dente por dente, mão por mão, pé por pé. ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",//63
+
+]  
 
 
 
@@ -207,7 +329,16 @@ var parasha = ""
         parasha=parasha4825t   
        }
  }
+ if (dia=26) {
+    if (hor>11) {
+      parasha=parasha4826m   
+    } else {
+      parasha=parasha4826t 
+    }
+     
+ } 
     
+   
     
 
      
