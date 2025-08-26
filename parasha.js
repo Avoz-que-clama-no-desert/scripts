@@ -240,7 +240,129 @@ var parasha4826t=[
     "",
     "",//63
 
-]  
+]
+var parasha4827m =[
+  "Parashá 48",
+  "dia 27 mnhã",
+  "Deuteronômio 20",
+  "¹ Quando saíres à peleja contra teus inimigos, e vires cavalos, e carros, e povo maior em número do que tu, deles não terás temor; pois o Senhor teu Deus, que te tirou da terra do Egito, está contigo. ",
+  "¹ Quando saíres à peleja contra teus inimigos, e vires cavalos, e carros, e povo maior em número do que tu, deles não terás temor; pois o Senhor teu Deus, que te tirou da terra do Egito, está contigo. ",
+  "³ E dir-lhe-á: Ouvi, ó Israel, hoje vos achegais à peleja contra os vossos inimigos; não se amoleça o vosso coração: não temais nem tremais, nem vos aterrorizeis diante deles, ",
+  "⁴ Pois o Senhor vosso Deus é o que vai convosco, a pelejar contra os vossos inimigos, para salvar-vos. ",
+  "⁵ Então os oficiais falarão ao povo, dizendo: Qual é o homem que edificou casa nova e ainda não a consagrou? Vá, e torne-se à sua casa para que porventura não morra na peleja e algum outro a consagre. ",
+  "⁶ E qual é o homem que plantou uma vinha e ainda não a desfrutou? Vá, e torne-se à sua casa, para que porventura não morra na peleja e algum outro a desfrute. ",
+  "⁷ E qual é o homem que está desposado com alguma mulher e ainda não a recebeu? Vá, e torne-se à sua casa, para que porventura não morra na peleja e algum outro homem a receba. ",
+  "⁸ E continuarão os oficiais a falar ao povo, dizendo: Qual é o homem medroso e de coração tímido? Vá, e torne-se à sua casa, para que o coração de seus irmãos não se derreta como o seu coração. ",
+  "⁹ E será que, quando os oficiais acabarem de falar ao povo, então designarão os capitães dos exércitos para a dianteira do povo. ",
+  "⁹ E será que, quando os oficiais acabarem de falar ao povo, então designarão os capitães dos exércitos para a dianteira do povo. ",
+  "¹¹ E será que, se te responder em paz, e te abrir as portas, todo o povo que se achar nela te será tributário e te servirá. ",
+  "¹² Porém, se ela não fizer paz contigo, mas antes te fizer guerra, então a sitiarás. ",
+  "¹³ E o Senhor teu Deus a dará na tua mão; e todo o homem que houver nela passarás ao fio da espada. ",
+  "¹⁴ Porém, as mulheres, e as crianças, e os animais; e tudo o que houver na cidade, todo o seu despojo, tomarás para ti; e comerás o despojo dos teus inimigos, que te deu o Senhor teu Deus. ",
+  "¹⁵ Assim farás a todas as cidades que estiverem mui longe de ti, que não forem das cidades destas nações. ",
+  "¹⁶ Porém, das cidades destas nações, que o Senhor teu Deus te dá em herança, nenhuma coisa que tem fôlego deixarás com vida. ",
+  "¹⁷ Antes destruí-las-ás totalmente: aos heteus, e aos amorreus, e aos cananeus, e aos perizeus, e aos heveus, e aos jebuseus, como te ordenou o Senhor teu Deus. ",
+  "¹⁸ Para que não vos ensinem a fazer conforme a todas as suas abominações, que fizeram a seus deuses, e pequeis contra o Senhor vosso Deus. ",
+  "¹⁹ Quando sitiares uma cidade por muitos dias, pelejando contra ela para a tomar, não destruirás o seu arvoredo, colocando nele o machado, porque dele comerás; pois que não o cortarás (pois o arvoredo do campo é mantimento para o homem), para empregar no cerco. ",
+  "²⁰ Mas as árvores que souberes que não são árvores de alimento, destruí-las-ás e cortá-las-ás; e contra a cidade que guerrear contra ti edificarás baluartes, até que esta seja vencida. ",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",//63
+
+]
+var parasha4827t =[
+  "Parashá 48",
+  "dia 27 Tarde",
+  "Deuteronômio 21 v1 ao 10",
+  "¹ Quando na terra que te der o Senhor teu Deus, para possuí-la, se achar um morto, caído no campo, sem que se saiba quem o matou, ",
+  "² Então sairão os teus anciãos e os teus juízes, e medirão a distância até as cidades que estiverem em redor do morto; ",
+  "³ E, na cidade mais próxima ao morto, os anciãos da mesma cidade tomarão uma novilha da manada, que não tenha trabalhado nem tenha puxado com o jugo; ",
+  "⁴ E os anciãos daquela cidade trarão a novilha a um vale áspero, que nunca foi lavrado nem semeado; e ali, naquele vale, degolarão a novilha; ",
+  "⁵ Então se achegarão os sacerdotes, filhos de Levi; pois o Senhor teu Deus os escolheu para o servirem, e para abençoarem em nome do Senhor; e pela sua palavra se decidirá toda a demanda e todo o ferimento; ",
+  "⁶ E todos os anciãos da mesma cidade, mais próxima ao morto, lavarão as suas mãos sobre a novilha degolada no vale; ",
+  "⁷ E protestarão, e dirão: As nossas mãos não derramaram este sangue, e os nossos olhos o não viram. ",
+  "⁸ Sê propício ao teu povo Israel, que tu, ó Senhor, resgataste, e não ponhas o sangue inocente no meio do teu povo Israel. E aquele sangue lhes será expiado. ",
+  "⁹ Assim tirarás o sangue inocente do meio de ti; pois farás o que é reto aos olhos do Senhor. ",
+  "¹⁰ Quando saíres à peleja contra os teus inimigos, e o Senhor teu Deus os entregar nas tuas mãos, e tu deles levares prisioneiros, ",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",//63
+
+]   
 
 
 
@@ -314,18 +436,22 @@ var parasha4723 =[
 
 
 
+
 var data = new Date()
 var dia = data.getDate()
 var hor = data.getHours()
 var parasha = ""
 
-if(dia = 25){
-    parasha=parasha4825t 
-}
 
-    
-          
-       
+
+ if (dia=25) {
+    if (hor<=12) {
+      parasha=parasha4825m
+    }
+    if (hor>=12) {
+        parasha=parasha4825t   
+       }
+ }
  
  if (dia=26) {
     if (hor<11) {
@@ -334,7 +460,15 @@ if(dia = 25){
       parasha=parasha4826t 
     }
      
- } 
+ }
+ if (dia=27) {
+  if (hor<11) {
+    parasha=parasha4827m   
+  } else {
+    parasha=parasha4827t 
+  }
+   
+} 
     
    
     
@@ -348,9 +482,6 @@ if(dia = 25){
 
 
 export {parasha}
-
-
-
 
 
 
