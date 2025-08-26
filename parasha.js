@@ -454,7 +454,7 @@ var parasha = ""
  }
  
  if (dia=26) {
-    if (hor<11) {
+    if (hor>11) {
       parasha=parasha4826m   
     } else {
       parasha=parasha4826t 
@@ -462,7 +462,7 @@ var parasha = ""
      
  }
  if (dia=27) {
-  if (hor<11) {
+  if (hor>11) {
     parasha=parasha4827m   
   } else {
     parasha=parasha4827t 
@@ -482,6 +482,7 @@ var parasha = ""
 
 
 export {parasha}
+
 
 
 
