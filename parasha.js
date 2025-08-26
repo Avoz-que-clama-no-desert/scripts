@@ -1,4 +1,14 @@
-    
+var data = new Date();
+var dia= data.getDate();
+var mes = data.getMonth();
+var ano = data.getFullYear();
+var hor = data.getHours()
+
+
+var parasha=""
+
+
+
 var parasha4825m=[
     "Parashá 48",
     "dia 25 manhã",
@@ -437,49 +447,30 @@ var parasha4723 =[
 
 
 
-var data = new Date()
-var dia = data.getDate()
-var hor = data.getHours()
-var parasha = ""
 
 
 
- if (dia=25) {
-    if (hor<=12) {
-      parasha=parasha4825m
-    }
-    if (hor>=12) {
-        parasha=parasha4825t   
-       }
- }
+
+
  
  if (dia=26) {
-    if (hor>11) {
+    if (hor<11) {
       parasha=parasha4826m   
     } else {
-      parasha=parasha4826t 
+      parasha=parasha4826t
     }
      
  }
- if (dia=27) {
-  if (hor>11) {
+ /*if (dia=27) {
+  if (hor<11) {
     parasha=parasha4827m   
   } else {
     parasha=parasha4827t 
   }
    
-} 
+} */
     
    
-    
-
-     
- 
-
-
-
-
-
 
 export {parasha}
 
