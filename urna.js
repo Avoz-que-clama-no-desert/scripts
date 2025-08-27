@@ -4,11 +4,11 @@
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
 
- document.addEventListener('contextmenu', function(e) {
+  document.addEventListener('contextmenu', function(e) {
         e.preventDefault();
      });  
      document.addEventListener('keydown', function(e) {
-          if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) { // F12 e Ctrl+Shift+I (Inspecionar)
+          if (e.key === 'F12' ) { // F12 e Ctrl+Shift+I (Inspecionar)
         e.preventDefault();
       }
     });
@@ -405,6 +405,7 @@ var seta = setInterval(() => {
 
 
 })
+
 
 
 
