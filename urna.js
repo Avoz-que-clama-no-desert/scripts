@@ -20,7 +20,8 @@ document.querySelector(".init").addEventListener("click",()=>{
     document.querySelector(".controleh3").textContent="Inicio de votação; "+hoje
     document.querySelector(".init").style.display="none"  
 })
-
+//********************************************** */
+var audio = document.querySelector(".audio")
 addEventListener("keydown", (event) => {
     if (event.key == "Home") {
         var senha = prompt("Digite senha do desenvolvedor")
@@ -29,6 +30,8 @@ addEventListener("keydown", (event) => {
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="none"
     document.querySelector(".controle").style.display="block"
+    
+
 
     resutado()
 
@@ -54,6 +57,8 @@ if (  confere == undefined) {
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="block"
     const pai = document.querySelector(".controle")
+    audio.src="https://avoz-que-clama-no-desert.github.io/audios/confirma-urna.mp3"
+    audio.play()
     const p = document.createElement("p")
     p.textContent=eleit
 
