@@ -11,6 +11,18 @@ var eleitores = [
     {nome:"j"},
     {nome:"l"},
     {nome:"m"},
+    {nome:"n"},
+    {nome:"o"},
+    {nome:"p"},
+    {nome:"q"},
+    {nome:"r"},
+    {nome:"s"},
+    {nome:"t"},
+    {nome:"u"},
+    {nome:"v"},
+    {nome:"x"},
+    {nome:"z"},
 
 ]
+
 export {eleitores}
