@@ -1,4 +1,6 @@
-
+window.addEventListener('contextmenu', function (event) {
+        event.preventDefault(); // Impede o menu de contexto padrão
+    });
 
 
 import { eleitores } from "./eleitores.js";
@@ -396,5 +398,6 @@ var seta = setInterval(() => {
 
 
 })
+
 
 
