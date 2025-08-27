@@ -1,10 +1,17 @@
-window.addEventListener('contextmenu', function (event) {
-        event.preventDefault(); // Impede o menu de contexto padrão
-    });
+
 
 
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
+
+ document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+     });  
+     document.addEventListener('keydown', function(e) {
+          if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) { // F12 e Ctrl+Shift+I (Inspecionar)
+        e.preventDefault();
+      }
+    });
 
 var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
@@ -398,6 +405,7 @@ var seta = setInterval(() => {
 
 
 })
+
 
 
 
