@@ -1,10 +1,9 @@
 
-alert("fuciona")
 
-/*
+
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
-*/
+
 var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
 
@@ -44,7 +43,7 @@ var confere = eleitores.find(eleitores =>eleitores.nome===eleit)
 if (  confere == undefined) {
     alert("Eleitor Não habilitado para votar")
 } else {
-    alert("Eleitor, "+confere.nome+"  habilitado para votar")
+    
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="block"
     const pai = document.querySelector(".controle")
@@ -59,11 +58,18 @@ if (  confere == undefined) {
 
 })
 
+var chapa1=localStorage.getItem("chapa 1")
+var chapa2=localStorage.getItem("chapa 2")
+var chapa3=localStorage.getItem("chapa 3")
+var chapa4=localStorage.getItem("chapa 4")
+
+
 var imag1 = document.querySelector(".foto1")
 var imag2 = document.querySelector(".foto2")
 var imag3 = document.querySelector(".foto3")
 var imag4 = document.querySelector(".foto4")
 var voto = ""
+var chapa=""
 
 
 
@@ -71,37 +77,45 @@ var voto = ""
         imag2.style.display="none"
         imag3.style.display="none"
         imag4.style.display="none"
-        voto="volkswagen"     //volkswagen   fiat ford
-        var vote1= localStorage.getItem(voto)
+        voto=localStorage.getItem(chapa1)
+        var vote1= voto
         vote1=parseInt(vote1)+1
-        localStorage.setItem(voto,vote1)
+        localStorage.setItem(chapa1,vote1)
+        chapa=chapa1
+        
     })
     imag2.addEventListener("click",()=>{
         imag1.style.display="none"
         imag3.style.display="none"
         imag4.style.display="none"
-        voto="fiat"     //volkswagen   fiat ford
-        var vote2= localStorage.getItem(voto)
+        voto=localStorage.getItem(chapa2)
+        var vote2= voto
         vote2=parseInt(vote2)+1
-        localStorage.setItem(voto,vote2)
+        localStorage.setItem(chapa2,vote2)
+        chapa=chapa2
+
     })
     imag3.addEventListener("click",()=>{
         imag2.style.display="none"
         imag1.style.display="none"
         imag4.style.display="none"
-        voto="ford"     //volkswagen   fiat ford
-        var vote3= localStorage.getItem(voto)
+        voto=localStorage.getItem(chapa3)
+        var vote3= voto
         vote3=parseInt(vote3)+1
-        localStorage.setItem(voto,vote3)
+        localStorage.setItem(chapa3,vote3)
+        chapa=chapa3
+
     })
     imag4.addEventListener("click",()=>{
         imag2.style.display="none"
         imag3.style.display="none"
         imag1.style.display="none"
-        voto="chevrolet"     //volkswagen   fiat ford
-        var vote4= localStorage.getItem(voto)
+        voto=localStorage.getItem(chapa4)
+        var vote4= voto
         vote4=parseInt(vote4)+1
-        localStorage.setItem(voto,vote4)
+        localStorage.setItem(chapa4,vote4)
+        chapa=chapa4
+
     })
 
 document.querySelector(".btn").addEventListener("click",()=>{
@@ -112,191 +126,213 @@ document.querySelector(".btn").addEventListener("click",()=>{
     imag3.style.display="block" 
     imag4.style.display="block" 
 
-localStorage.setItem(eleit,voto)
+localStorage.setItem(eleit,chapa)
 //localStorage.setItem(voto,0)
 document.querySelector(".iput").value=""
 
 
 })
 
+
 function resutado(){
-    var controav1=localStorage.getItem("volkswagen")
-    var controav2=localStorage.getItem("fiat")
-    var controav3=localStorage.getItem("ford")
-    var controav4=localStorage.getItem("chevrolet")
+    var controav1=localStorage.getItem(chapa1) 
+    var controav2=localStorage.getItem(chapa2)
+    var controav3=localStorage.getItem(chapa3)
+    var controav4=localStorage.getItem(chapa4)
 
-     if (controav1>=controav2) {
-        if (controav1>=controav3) {
-            if (controav1>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+ "volkswagen;  "+"votos:"+controav1
 
-            } else {
-                
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"volkswagen;  "+"votos:"+controav1
-            }
-        alert("ok")
+    var v1=19
+    var v2=20
+    var v3=17
+    var v4=14
 
-        } else {
-            
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"volkswagen;  "+"votos:"+controav1
-        }
-        
-
-     } else {
-        
-        if (controav1>=controav3) {
-            if (controav1>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+ "volkswagen;  "+"votos:"+controav1
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"volkswagen;  "+"votos:"+controav1
-            }
-        
-
-        } else {
-            if (controav1>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+ "volkswagen;  "+"votos:"+controav1
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"volkswagen;  "+"votos:"+controav1
-            }
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"volkswagen;  "+"votos:"+controav1
-        }
-       document.querySelector(".contropn2").textContent="Segundo lugar;  "+"volkswagen;  "+"votos:"+controav1
-     }
+     
 /************************************************************** */
-     if (controav2>=controav1) {
-        
-        if (controav2>=controav3) {
-
-            if (controav2>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"fiat;  "+"votos:"+controav2
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"fiat;  "+"votos:"+controav2
-            }
-        
-
+if (controav1 > controav2) {
+    
+    if (controav1 > controav3) {
+       
+        if (controav1 > controav4) {
+            //1 lugar
+            document.querySelector(".contropn1").innerHTML=chapa1+ "   "+controav1
         } else {
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"fiat;  "+"votos:"+controav2
+            //s2 lugar
+            document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1
         }
+       
         
-
-     } else {
-        if (controav2>=controav3) {
-
-            if (controav2>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"fiat;  "+"votos:"+controav2
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"fiat;  "+"votos:"+controav2
-            }
+    } else {
+      
+      if (controav1 > controav4) {
+        document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1
         
+      } else {
+        document.querySelector(".contropn4").innerHTML=chapa1+ "   "+controav1
+        
+      }  
+    }
+} else {
+
+    
+    if (controav1 > controav3) {
+        // 2 lgar
+        document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1
+        
+    } else {
+        
+        if (controav1 > controav4) {
+            // 3 lugar
+            document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1
 
         } else {
-            if (controav2>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"fiat;  "+"votos:"+controav2
-
-            } else {
-                 
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"fiat;  "+"votos:"+controav2
-            }
-           
-
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"fiat;  "+"votos:"+controav2
-        }
-        
-       document.querySelector(".contropn2").textContent="Segundo lugar;  "+"fiat; "+"votos:"+controav2
-     }
-/*************************************************** */
-     if (controav3>=controav1) {
-        if (controav3<=controav2) {
-            if (controav3>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"ford;  "+"votos:"+controav3
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"ford;  "+"votos:"+controav3
-            }
-        
-
-        } else {
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"ford;  "+"votos:"+controav3
-        }
-        
-
-     } else {
-        if (controav3<=controav2) {
-            if (controav3>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"ford;  "+"votos:"+controav3
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"ford;  "+"votos:"+controav3
-            }
-        
-
-        } else {
-            if (controav3>=controav4) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"ford;  "+"votos:"+controav3
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"ford;  "+"votos:"+controav3
-            }
-        
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"ford;  "+"votos:"+controav3
-        }
-       document.querySelector(".contropn2").textContent="Segundo lugar;  "+"ford; "+"votos:"+controav3
-     }
-/********************************************** */
-     if (controav4>=controav1) {
-        if (controav4>=controav3) {
-            if (controav4>=controav2) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"chevrolet;  "+"votos:"+controav4
-
-            } else {
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"chevrolet;  "+"votos:"+controav4
-            }
-        
-
-        } else {
-            document.querySelector(".contropn3").textContent="Terceiro lugar;  "+"chevrolet;  "+"votos:"+controav4
-        }
-        
-
-     } else {
-        if (controav4>=controav3) {
-            if (controav4>=controav2) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"chevrolet;  "+"votos:"+controav4
-
-            } else {
-                document.querySelector(".contropn2").textContent="Quarto lugar;  "+"chevrolet;  "+"votos:"+controav4
-            }
-        
-
-        } else {
-            if (controav4>=controav2) {
-         
-                document.querySelector(".contropn1").textContent="Primeiro lugar;  "+"chevrolet;  "+"votos:"+controav4
-
-            } else {
-                
-                document.querySelector(".contropn4").textContent="Quarto lugar;  "+"chevrolet;  "+"votos:"+controav4
-            }
+            //4 lugar
+            document.querySelector(".contropn4").innerHTML=chapa1+ "   "+controav1
             
         }
+        
+    }
+    
+}
+   
+/*************************************************** */
+if (controav2 > controav1) {
+    
+    if (controav2 > controav3) {
+        
+        if (controav2>controav4) {
+            //1 lugar
+            document.querySelector(".contropn1").textContent=chapa2+ "   "+controav2
+        } else {
+            //s2 lugar
+            document.querySelector(".contropn2").textContent=chapa2+ "   "+controav2
+        }
+       
+        
+    } else {
+     
+      if (controav2 > controav4) {
+        document.querySelector(".contropn3").textContent=chapa2+ "   "+controav2
+        
+      } else {
+        document.querySelector(".contropn4").textContent=chapa2+ "   "+controav2
+        
+      }  
+    }
+} else {
+
+    
+    if (controav2 > controav3) {
+        // 2 lgar
+        document.querySelector(".contropn2").textContent=chapa2+ "   "+controav2
+        
+    } else {
+        
+        if (controav2 > controav4) {
+            // 3 lugar
+            document.querySelector(".contropn3").textContent=chapa2+ "   "+controav2
+
+        } else {
+            //4 lugar
+            document.querySelector(".contropn4").textContent=chapa2+ "   "+controav2
+            
+        }
+        
+    }
+    
+}
+    
+/********************************************** */
+if (controav3 > controav1) {
+    
+    if (controav3 > controav2) {
+        
+        if (controav3 > controav4) {
+            //1 lugar
+            document.querySelector(".contropn1").textContent=chapa3+ "   "+controav3
+        } else {
+            //s2 lugar
+            document.querySelector(".contropn2").textContent=chapa3+ "   "+controav3
+        }
+       
+        
+    } else {
       
-     }
- 
+      if (controav3 > controav4) {
+        document.querySelector(".contropn3").textContent=chapa3+ "   "+controav3
+        
+      } else {
+        document.querySelector(".contropn4").textContent=chapa3+ "   "+controav3
+        
+      }  
+    }
+} else {
+
+    
+    if (controav3 > controav2) {
+        // 2 lgar
+        document.querySelector(".contropn2").textContent=chapa3+ "   "+controav3
+        
+    } else {
+        
+        if (controav3 > controav4) {
+            // 3 lugar
+            document.querySelector(".contropn3").textContent=chapa3+ "   "+controav3
+
+        } else {
+            //4 lugar
+            document.querySelector(".contropn4").textContent=chapa3+ "   "+controav3
+            
+        }
+        
+    }
+    
+}    
+//************************************************************ */
+if (controav4> controav1) {
+    
+    if (controav4 > controav2) {
+        
+        if (controav4 > controav3) {
+            //1 lugar
+            document.querySelector(".contropn1").textContent=chapa4+ "   "+controav4
+        } else {
+            //s2 lugar
+            document.querySelector(".contropn2").textContent=chapa4+ "   "+controav4
+        }
+       
+        
+    } else {
+      
+      if (controav4 > controav3) {
+        document.querySelector(".contropn3").textContent=chapa4+ "   "+controav4
+       
+      } else {
+        document.querySelector(".contropn4").textContent=chapa4+ "   "+controav4
+       
+      }  
+    }
+} else {
+
+    
+    if (controav4 > controav2) {
+        // 2 lgar
+        document.querySelector(".contropn2").textContent=chapa4+ "   "+controav4
+        
+    } else {
+        
+        if (controav4 > controav3) {
+            // 3 lugar
+            document.querySelector(".contropn3").textContent=chapa4+ "   "+controav4
+            
+        } else {
+            //4 lugar
+            document.querySelector(".contropn4").textContent=chapa4+ "   "+controav4
+            
+        }
+        
+    }
+    
+} 
 
    
 
@@ -306,18 +342,47 @@ function resutado(){
 
    
 }
+//******************************************************************************** */
 
+
+var nuchap =0
+addEventListener("keydown", (ev)=>{
+  if (ev.key=="End") {
+     nuchap++
+    
+    if (nuchap>4) {
+        
+       alert("fim de inscrição")
+    } else {
+        
+       if (ev.key=="End") {
+       var chapa = prompt("digite o nome da chapa ")
+       localStorage.setItem("chapa "+nuchap,chapa)
+       localStorage.setItem(chapa,0)
+    } 
+    }
+  } else {
+    
+  }
+
+    
+})
+
+
+//********************************************************************************** */
 document.querySelector(".find").addEventListener("click",()=>{
    
 document.querySelector(".dispaly").style.display="none"
 document.querySelector(".find").style.display="none"
- 
+document.querySelector(".init").style.display="none" 
 
  
 window.print()
 
 var seta = setInterval(() => {
  location.reload()
+ localStorage.clear()
+ 
  
  clearInterval(seta)
 
