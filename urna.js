@@ -1,10 +1,15 @@
-
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+ });  
+ document.addEventListener('keydown', function(e) {
+      if (e.key === 'F12' ) { // F12 e Ctrl+Shift+I (Inspecionar)
+    e.preventDefault();
+  }
+});
 
 
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
-
-  
 
 var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
@@ -398,9 +403,5 @@ var seta = setInterval(() => {
 
 
 })
-
-
-
-
 
 
