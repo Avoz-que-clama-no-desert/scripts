@@ -461,18 +461,19 @@ var parasha4723 =[
     }
      
  }
- /*if (dia=27) {
+ if (dia=27) {
   if (hor<11) {
     parasha=parasha4827m   
   } else {
     parasha=parasha4827t 
   }
    
-} */
+} 
     
    
 
 export {parasha}
+
 
 
 
