@@ -57,8 +57,7 @@ if (  confere == undefined) {
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="block"
     const pai = document.querySelector(".controle")
-    audio.src="https://avoz-que-clama-no-desert.github.io/audios/confirma-urna.mp3"
-    audio.play()
+    
     const p = document.createElement("p")
     p.textContent=eleit
 
@@ -136,7 +135,9 @@ document.querySelector(".btn").addEventListener("click",()=>{
     imag1.style.display="block" 
     imag2.style.display="block" 
     imag3.style.display="block" 
-    imag4.style.display="block" 
+    imag4.style.display="block"
+    audio.src="https://avoz-que-clama-no-desert.github.io/audios/confirma-urna.mp3"
+    audio.play() 
 
 localStorage.setItem(eleit,chapa)
 //localStorage.setItem(voto,0)
