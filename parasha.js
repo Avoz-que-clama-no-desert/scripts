@@ -277,16 +277,17 @@ var parasha4830 =[
 
 
  
-
+if(dia=30){
+  
   parasha=parasha4828
-/*
-if (dia=29) {
+}
+if (dia=31) {
   parasha=parasha4829
 }
-if (dia=30) {
+if (dia=1) {
   parasha=parasha4830
 }   
-   */
+  
 
 export {parasha}
 
