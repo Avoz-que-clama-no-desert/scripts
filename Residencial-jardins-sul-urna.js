@@ -11,6 +11,10 @@ document.addEventListener('contextmenu', function(e) {
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
 
+var dat = new Date()
+var hor = dat.getHours()
+var minu = dat.getMinutes()
+
 var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
 
@@ -41,7 +45,7 @@ addEventListener("keydown", (event) => {
    
  })/************************************************************* */
 
-
+var espaco = "    "
 
 
 var eleit = ""
@@ -59,7 +63,7 @@ if (  confere == undefined) {
     const pai = document.querySelector(".controle")
     
     const p = document.createElement("p")
-    p.textContent=eleit
+    p.textContent="Nome:"+ confere.nome +espaco+"bloco:"+ confere.bloco+espaco+"Ap:"+ confere.ap+espaco+"Hora"+ hor+":"+minu
 
     pai.appendChild(p)
 }
@@ -89,7 +93,7 @@ var chapa=""
         imag3.style.display="none"
         imag4.style.display="none"
         voto=localStorage.getItem(chapa1)
-        var vote1= voto
+        var vote1=parseInt(voto) 
         vote1=parseInt(vote1)+1
         localStorage.setItem(chapa1,vote1)
         chapa=chapa1
@@ -409,6 +413,5 @@ var seta = setInterval(() => {
 
 
 })
-
 
 
