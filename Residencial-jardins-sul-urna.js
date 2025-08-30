@@ -390,13 +390,15 @@ addEventListener("keydown", (ev)=>{
 document.querySelector(".find").addEventListener("click",()=>{
    
 document.querySelector(".dispaly").style.display="none"
+document.querySelector(".rodape").style.display="block"
 document.querySelector(".find").style.display="none"
 document.querySelector(".init").style.display="none" 
 
  
 window.print()
 
-var seta = setInterval(() => {
+var seta = setInterval(() => { 
+ document.querySelector(".rodape").style.display="none"
  location.reload()
  localStorage.clear()
  
