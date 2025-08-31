@@ -4,8 +4,8 @@ var hor = data.getHours()
 
 
 var audio1 =[
-    "",//0
-    "",//1
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio22.mp3",//0
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio23.mp3",//1
     "",//2
     "",//3
     "",//4
@@ -35,7 +35,7 @@ var audio1 =[
     "",//28
     "",//29
     "",//30
-    "",//31
+    "https://avoz-que-clama-no-desert.github.io/audios/deutoronomio21-10-23.mp3",//31
 
 
 ]
@@ -77,29 +77,15 @@ var audio2 =[
 ]
 
 var audio=""
-if (dia=25) {
-    if (hor<11) {
-        audio=audio1 
-     } else {
-        audio=audio2 
-     }
-      
-}
-if (dia=26) {
-if (hor<11) {
-   audio=audio1 
-} else {
-   audio=audio2 
-}
-}
-if (dia=27) {
-   if (hor<11) {
-      audio=audio1 
-   } else {
-      audio=audio2 
-   }
-   }
-
+ if(dia == 31){
+   audio=audio1
+ }
+ if (dia==1) {
+   audio=audio1
+ }
+ if (dia==3) {
+   audio=audio1
+ }
 
 
 
