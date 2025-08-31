@@ -258,7 +258,7 @@ var parasha4830 =[
 
 
  
-if (dia == 30) {
+if (dia == 31) {
   parasha=parasha4931
 }
 if (dia==1) {
@@ -273,6 +273,7 @@ if (dia==2) {
    
 
 export {parasha}
+
 
 
 
