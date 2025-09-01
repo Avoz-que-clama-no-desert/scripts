@@ -33,8 +33,8 @@ var confirmaeleitor = document.querySelector(".confirmaeleitor")
 document.querySelector(".init").addEventListener("click",()=>{
     
     document.querySelector(".eleitor").style.display="block"
-    document.querySelector(".controleh3").textContent="Inicio de votação; "+hoje+Hora
-    document.querySelector(".controleh4").textContent="Final de votação; "+hoje+Hora
+    document.querySelector(".controleh3").textContent="Inicio de votação; "+hoje
+    document.querySelector(".controleh4").textContent="Final de votação; "+Hora
     document.querySelector(".init").style.display="none"  
 })
 //********************************************** */
@@ -448,5 +448,6 @@ var seta = setInterval(() => {
 
 
 })
+
 
 
