@@ -11,9 +11,21 @@ document.addEventListener('contextmenu', function(e) {
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
 
-var dat = new Date()
-var hor = dat.getHours()
-var minu = dat.getMinutes()
+
+var hor=0
+var minu=0
+setInterval(() => {
+  var dat = new Date()
+ hor = dat.getHours()
+ minu = dat.getMinutes()  
+}, 10);
+
+
+
+var qvotaram =[]
+
+
+
 
 var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
@@ -52,21 +64,41 @@ var eleit = ""
 
 confirmaeleitor.addEventListener("click",() =>{
  eleit=document.querySelector(".iput").value;
-var confere = eleitores.find(eleitores =>eleitores.nome===eleit) 
 
-if (  confere == undefined) {
+
+var confere = eleitores.find(eleitores =>eleitores.nome===eleit)
+
+var javotou = qvotaram.find(qvotaram =>qvotaram.nome===eleit)
+
+if (javotou == undefined) {
+    if (  confere == undefined) {
     alert("Eleitor Não habilitado para votar")
-} else {
     
+
+} else {
+var hora= hor+":"+minu
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="block"
     const pai = document.querySelector(".controle")
+
     
     const p = document.createElement("p")
-    p.textContent="Nome:"+ confere.nome +espaco+"bloco:"+ confere.bloco+espaco+"Ap:"+ confere.ap+espaco+"Hora"+ hor+":"+minu
+    p.textContent="Nome:"+ confere.nome +espaco+"bloco:"+ confere.bloco+espaco+"Ap:"+ confere.ap+espaco+"Hora"+ hora
 
     pai.appendChild(p)
+
+   var votaram = {nome:eleit,hora:hora}
+    
+    qvotaram.push(votaram)
+    document.querySelector(".iput").value=""
+  
 }
+
+} else {
+   alert("eleitor"+";        "+eleit+";     "+"já votor as"+"   "+ hor+":"+minu ) 
+   document.querySelector(".iput").value=""
+} 
+
 
 
 
@@ -145,7 +177,7 @@ document.querySelector(".btn").addEventListener("click",()=>{
 
 localStorage.setItem(eleit,chapa)
 //localStorage.setItem(voto,0)
-document.querySelector(".iput").value=""
+
 
 
 })
