@@ -11,16 +11,16 @@ document.addEventListener('contextmenu', function(e) {
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
 
-
 var hor=0
 var minu=0
 setInterval(() => {
   var dat = new Date()
- hor = dat.getHours()
- minu = dat.getMinutes()  
-}, 10);
+  hor = dat.getHours()
+ minu = dat.getMinutes()
 
-var Hora= hor+":"+minu
+}, 8);
+
+
 
 var qvotaram =[]
 
@@ -34,7 +34,7 @@ document.querySelector(".init").addEventListener("click",()=>{
     
     document.querySelector(".eleitor").style.display="block"
     document.querySelector(".controleh3").textContent="Inicio de votação; "+hoje
-    document.querySelector(".controleh4").textContent="Final de votação; "+Hora
+   
     document.querySelector(".init").style.display="none"  
 })
 //********************************************** */
@@ -47,7 +47,7 @@ addEventListener("keydown", (event) => {
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="none"
     document.querySelector(".controle").style.display="block"
-    
+  
 
 
     resutado()
@@ -77,7 +77,8 @@ if (javotou == undefined) {
     
 
 } else {
-var hora= hor+":"+minu
+var hora = hor+":"+minu
+alert(hora)
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="block"
     const pai = document.querySelector(".controle")
@@ -426,7 +427,7 @@ document.querySelector(".dispaly").style.display="none"
 document.querySelector(".rodape").style.display="block"
 document.querySelector(".find").style.display="none"
 document.querySelector(".init").style.display="none" 
-
+document.querySelector(".controleh4").textContent="Final de votação; "+"  hrs:"+hor+":"+minu
  
 window.print()
 
@@ -448,6 +449,5 @@ var seta = setInterval(() => {
 
 
 })
-
 
 
