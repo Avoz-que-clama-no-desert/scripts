@@ -23,6 +23,6 @@ var meses=[
 
 ]
 
-var hoje="Data;  "+ dia+"  /  "+meses[mes]+"  /  "+ano + "     "+"hrs"+hor+":"+minu
+var hoje="Data;  "+ dia+"  /  "+meses[mes]+"  /  "+ano + "     "+"hrs"
 
 export {hoje}
