@@ -83,7 +83,7 @@ var audio=""
  if (dia==1) {
    audio=audio1
  }
- if (dia==3) {
+ if (dia==2) {
    audio=audio1
  }
 
@@ -92,4 +92,5 @@ var audio=""
 
 
 export {audio}
+
 
