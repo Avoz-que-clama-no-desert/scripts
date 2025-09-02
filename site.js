@@ -9,7 +9,7 @@
      document.querySelector(".mostradia").textContent=parasha[1]
      document.querySelector(".h1").textContent=parasha[0]
      document.querySelector(".titulo").textContent=parasha[2]
-     document.querySelector(".aud").src=audio[2]
+     document.querySelector(".aud").src=audio[dia]
 
      document.querySelector(".p").textContent=parasha[3]
      document.querySelector(".p1").textContent=parasha[4]
@@ -76,5 +76,6 @@
      
 
      
+
 
 
