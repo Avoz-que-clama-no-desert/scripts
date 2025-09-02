@@ -4,9 +4,9 @@ var hor = data.getHours()
 
 
 var audio1 =[
-    "",//0
-    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio22.mp3",//1
-    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio23.mp3",",//2
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio22.mp3",//0
+    "",//1
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio23.mp3",//2
     "",//3
     "",//4
     "",//5
@@ -92,5 +92,3 @@ var audio=""
 
 
 export {audio}
-
-
