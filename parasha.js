@@ -6,32 +6,32 @@ var hor = data.getHours()
 
 var parasha=""
 
-var parasha4931=[
+var parasha483m =[
   "Parashá 49",
-  " dia 31",
-  "Deuteronômio 21 v 10 ate 23",
-  "10 Quando saíres à peleja contra os teus inimigos, e o Senhor teu Deus os entregar nas tuas mãos, e tu deles levares prisioneiros,",
-  "¹¹ E tu entre os presos vires uma mulher formosa à vista, e a cobiçares, e a tomares por mulher, ",
-  "¹² Então a trarás para a tua casa; e ela rapará a cabeça e cortará as suas unhas. ",
-  "¹³ E despirá o vestido do seu cativeiro, e se assentará na tua casa, e chorará a seu pai e a sua mãe um mês inteiro; e depois chegarás a ela, e tu serás seu marido e ela tua mulher. ",
-  "¹⁴ E será que, se te não contentares dela, a deixarás ir à sua vontade; mas de modo algum a venderás por dinheiro, nem a tratarás como escrava, pois a tens humilhado. ",
-  "¹⁵ Quando um homem tiver duas mulheres, uma a quem ama e outra a quem despreza, e a amada e a desprezada lhe derem filhos, e o filho primogênito for da desprezada, ",
-  "¹⁶ Será que, no dia em que fizer herdar a seus filhos o que tiver, não poderá dar a primogenitura ao filho da amada, preferindo-o ao filho da desprezada, que é o primogênito. ",
-  "¹⁷ Mas ao filho da desprezada reconhecerá por primogênito, dando-lhe dobrada porção de tudo quanto tiver; porquanto aquele é o princípio da sua força, o direito da primogenitura é dele. ",
-  "¹⁸ Quando alguém tiver um filho obstinado e rebelde, que não obedecer à voz de seu pai e à voz de sua mãe, e, castigando-o eles, lhes não der ouvidos, ",
-  "¹⁹ Então seu pai e sua mãe pegarão nele, e o levarão aos anciãos da sua cidade, e à porta do seu lugar; ",
-  "²⁰ E dirão aos anciãos da cidade: Este nosso filho é rebelde e obstinado, não dá ouvidos à nossa voz; é um comilão e um beberrão. ",
-  "²¹ Então todos os homens da sua cidade o apedrejarão, até que morra; e tirarás o mal do meio de ti, e todo o Israel ouvirá e temerá. ",
-  "²² Quando também em alguém houver pecado, digno do juízo de morte, e for morto, e o pendurares num madeiro, ",
-  "²³ O seu cadáver não permanecerá no madeiro, mas certamente o enterrarás no mesmo dia; porquanto o pendurado é maldito de Deus; assim não contaminarás a tua terra, que o Senhor teu Deus te dá em herança.",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "dia 3 manhã",
+  "Deuteronômio 24",
+  "¹ Quando um homem tomar uma mulher e se casar com ela, então será que, se não achar graça em seus olhos, por nela encontrar coisa indecente, far-lhe-á uma carta de repúdio, e lha dará na sua mão, e a despedirá da sua casa.",
+  "² Se ela, pois, saindo da sua casa, for e se casar com outro homem, ",
+  "³ E este também a desprezar, e lhe fizer carta de repúdio, e lha der na sua mão, e a despedir da sua casa, ou se este último homem, que a tomou para si por mulher, vier a morrer, ",
+  "⁴ Então seu primeiro marido, que a despediu, não poderá tornar a tomá-la, para que seja sua mulher, depois que foi contaminada; pois é abominação perante o Senhor; assim não farás pecar a terra que o Senhor teu Deus te dá por herança. ",
+  "⁵ Quando um homem for recém-casado não sairá à guerra, nem se lhe imporá encargo algum; por um ano inteiro ficará livre na sua casa para alegrar a mulher que tomou. ",
+  "⁶ Não se tomará em penhor ambas as mós, nem a mó de cima nem a de baixo; pois se penhoraria assim a vida. ",
+  "⁷ Quando se achar alguém que tiver furtado um dentre os seus irmãos, dos filhos de Israel, e escravizá-lo, ou vendê-lo, esse ladrão morrerá, e tirarás o mal do meio de ti. ",
+  "⁸ Guarda-te da praga da lepra, e tenhas grande cuidado de fazer conforme a tudo o que te ensinarem os sacerdotes levitas; como lhes tenho ordenado, terás cuidado de o fazer. ",
+  "⁹ Lembra-te do que o Senhor teu Deus fez a Miriã no caminho, quando saíste do Egito. ",
+  "¹⁰ Quando emprestares alguma coisa ao teu próximo, não entrarás em sua casa, para lhe tirar o penhor. ",
+  "¹¹ Fora ficarás; e o homem, a quem emprestaste, te trará fora o penhor. ",
+  "¹² Porém, se for homem pobre, não te deitarás com o seu penhor. ",
+  "¹³ Em se pondo o sol, sem falta lhe restituirás o penhor; para que durma na sua roupa, e te abençoe; e isto te será justiça diante do Senhor teu Deus. ",
+  "¹⁴ Não oprimirás o diarista pobre e necessitado de teus irmãos, ou de teus estrangeiros, que está na tua terra e nas tuas portas. ",
+  "¹⁵ No seu dia lhe pagarás a sua diária, e o sol não se porá sobre isso; porquanto pobre é, e sua vida depende disso; para que não clame contra ti ao Senhor, e haja em ti pecado. ",
+  "¹⁶ Os pais não morrerão pelos filhos, nem os filhos pelos pais; cada um morrerá pelo seu pecado. ",
+  "¹⁷ Não perverterás o direito do estrangeiro e do órfão; nem tomarás em penhor a roupa da viúva. ",
+  "¹⁸ Mas lembrar-te-ás de que foste servo no Egito, e de que o Senhor teu Deus te livrou dali; pelo que te ordeno que faças isso. ",
+  "¹⁹ Quando no teu campo colheres a tua colheita, e esqueceres um molho no campo, não tornarás a tomá-lo; para o estrangeiro, para o órfão, e para a viúva será; para que o Senhor teu Deus te abençoe em toda a obra das tuas mãos. ",
+  "²⁰ Quando sacudires a tua oliveira, não voltarás para colher o fruto dos ramos; para o estrangeiro, para o órfão, e para a viúva será. ",
+  "²¹ Quando vindimares a tua vinha, não voltarás para rebuscá-la; para o estrangeiro, para o órfão, e para a viúva será. ",
+  "²² E lembrar-te-ás de que foste servo na terra do Egito; portanto te ordeno que faças isso. ",
   "",
   "",
   "",
@@ -63,44 +63,46 @@ var parasha4931=[
   "",
   "",
   "",//63
-
 ]
-var parasha491 =[
+var parasha483t=[
   "Parashá 49",
-  "dia 1",
-  "Deuteronômio 22",
-  "¹ Vendo extraviado o boi ou ovelha de teu irmão, não te desviarás deles; restituí-los-ás sem falta a teu irmão. ",
-  "² E se teu irmão não estiver perto de ti, ou não o conheceres, recolhê-los-ás na tua casa, para que fiquem contigo, até que teu irmão os busque, e tu lhos restituirás. ",
-  "³ Assim também farás com o seu jumento, e assim farás com as suas roupas; assim farás também com toda a coisa perdida, que se perder de teu irmão, e tu a achares; não te poderás omitir. ",
-  "⁴ Se vires o jumento que é de teu irmão, ou o seu boi, caídos no caminho, não te desviarás deles; sem falta o ajudarás a levantá-los. ",
-  "⁵ Não haverá traje de homem na mulher, e nem vestirá o homem roupa de mulher; porque, qualquer que faz isto, abominação é ao Senhor teu Deus.",
-  "⁶ Quando encontrares pelo caminho um ninho de ave numa árvore, ou no chão, com passarinhos, ou ovos, e a mãe posta sobre os passarinhos, ou sobre os ovos, não tomarás a mãe com os filhotes; ",
-  "⁷ Deixarás ir livremente a mãe, e os filhotes tomarás para ti; para que te vá bem e para que prolongues os teus dias. ",
-  "⁸ Quando edificares uma casa nova, farás um parapeito, no eirado, para que não ponhas culpa de sangue na tua casa, se alguém de algum modo cair dela. ",
-  "⁹ Não semearás a tua vinha com diferentes espécies de semente, para que não se degenere o fruto da semente que semeares, e a novidade da vinha. ",
-  "¹⁰ Com boi e com jumento não lavrarás juntamente. ",
-  "¹¹ Não te vestirás de diversos estofos de lã e linho juntamente. ",
-  "¹² Franjas porás nas quatro bordas da tua manta, com que te cobrires. ",
-  "¹³ Quando um homem tomar mulher e, depois de coabitar com ela, a desprezar, ",
-  "¹⁴ E lhe imputar coisas escandalosas, e contra ela divulgar má fama, dizendo: Tomei esta mulher, e me cheguei a ela, porém não a achei virgem; ",
-  "¹⁵ Então o pai da moça e sua mãe tomarão os sinais da virgindade da moça, e levá-los-ão aos anciãos da cidade, à porta; ",
-  "¹⁶ E o pai da moça dirá aos anciãos: Eu dei minha filha por mulher a este homem, porém ele a despreza;",
-  "¹⁷ E eis que lhe imputou coisas escandalosas, dizendo: Não achei virgem a tua filha; porém eis aqui os sinais da virgindade de minha filha. E estenderão a roupa diante dos anciãos da cidade. ",
-  "¹⁸ Então os anciãos da mesma cidade tomarão aquele homem, e o castigarão. ",
-  "¹⁹ E o multarão em cem siclos de prata, e os darão ao pai da moça; porquanto divulgou má fama sobre uma virgem de Israel. E lhe será por mulher, em todos os seus dias não a poderá despedir.",
-  "²⁰ Porém se isto for verdadeiro, isto é, que a virgindade não se achou na moça, ",
-  "²¹ Então levarão a moça à porta da casa de seu pai, e os homens da sua cidade a apedrejarão, até que morra; pois fez loucura em Israel, prostituindo-se na casa de seu pai; assim tirarás o mal do meio de ti. ",
-  "²² Quando um homem for achado deitado com mulher que tenha marido, então ambos morrerão, o homem que se deitou com a mulher, e a mulher; assim tirarás o mal de Israel. ",
-  "²³ Quando houver moça virgem, desposada, e um homem a achar na cidade, e se deitar com ela, ",
-  "²⁴ Então trareis ambos à porta daquela cidade, e os apedrejareis, até que morram; a moça, porquanto não gritou na cidade, e o homem, porquanto humilhou a mulher do seu próximo; assim tirarás o mal do meio de ti. ",
-  "²⁵ E se algum homem no campo achar uma moça desposada, e o homem a forçar, e se deitar com ela, então morrerá só o homem que se deitou com ela; ",
-  "²⁶ Porém à moça não farás nada. A moça não tem culpa de morte; porque, como o homem que se levanta contra o seu próximo, e lhe tira a vida, assim é este caso. ",
-  "²⁷ Pois a achou no campo; a moça desposada gritou, e não houve quem a livrasse. ",
-  "²⁸ Quando um homem achar uma moça virgem, que não for desposada, e pegar nela, e se deitar com ela, e forem apanhados, ",
-  "²⁹ Então o homem que se deitou com ela dará ao pai da moça cinquenta siclos de prata; e porquanto a humilhou, lhe será por mulher; não a poderá despedir em todos os seus dias. ",
-  "³⁰ Nenhum homem tomará a mulher de seu pai, nem descobrirá a nudez de seu pai. ",
+  "dia 3 manhã",
+  "Deuteronômio 25",
+  "¹ Quando houver contenda entre alguns, e vierem a juízo, para que os julguem, ao justo justificarão, e ao injusto condenarão. ",
+  "² E será que, se o injusto merecer açoites, o juiz o fará deitar-se, para que seja açoitado diante de si; segundo a sua culpa, será o número de açoites. ",
+  "³ Quarenta açoites lhe fará dar, não mais; para que, porventura, se lhe fizer dar mais açoites do que estes, teu irmão não fique envilecido aos teus olhos. ",
+  "⁴ Não atarás a boca ao boi, quando trilhar. ",
+  "⁵ Quando irmãos morarem juntos, e um deles morrer, e não tiver filho, então a mulher do falecido não se casará com homem estranho, de fora; seu cunhado estará com ela, e a receberá por mulher, e fará a obrigação de cunhado para com ela. ",
+  "⁶ E o primogênito que ela lhe der será sucessor do nome do seu irmão falecido, para que o seu nome não se apague em Israel. ",
+  "⁷ Porém, se o homem não quiser tomar sua cunhada, esta subirá à porta dos anciãos, e dirá: Meu cunhado recusa suscitar a seu irmão nome em Israel; não quer cumprir para comigo o dever de cunhado. ",
+  "⁸ Então os anciãos da sua cidade o chamarão, e com ele falarão; e, se ele persistir, e disser: Não quero tomá-la; ",
+  "⁹ Então sua cunhada se chegará a ele na presença dos anciãos, e lhe descalçará o sapato do pé, e lhe cuspirá no rosto, e protestará, e dirá: Assim se fará ao homem que não edificar a casa de seu irmão; ",
+  "¹⁰ E o seu nome se chamará em Israel: A casa do descalçado. ",
+  "¹¹ Quando pelejarem dois homens, um contra o outro, e a mulher de um chegar para livrar a seu marido da mão do que o fere, e ela estender a sua mão, e lhe pegar pelas suas vergonhas, ",
+  "¹² Então cortar-lhe-ás a mão; não a poupará o teu olho. ",
+  "¹³ Na tua bolsa não terás pesos diversos, um grande e um pequeno. ",
+  "¹⁴ Na tua casa não terás dois tipos de efa, um grande e um pequeno. ",
+  "¹⁵ Peso inteiro e justo terás; efa inteiro e justo terás; para que se prolonguem os teus dias na terra que te dará o Senhor teu Deus. ",
+  "¹⁶ Porque abominação é ao Senhor teu Deus todo aquele que faz isto, todo aquele que fizer injustiça. ",
+  "¹⁷ Lembra-te do que te fez Amaleque no caminho, quando saías do Egito; ",
+  "¹⁸ Como te saiu ao encontro no caminho, e feriu na tua retaguarda todos os fracos que iam atrás de ti, estando tu cansado e afadigado; e não temeu a Deus. ",
+  "¹⁹ Será, pois, que, quando o Senhor teu Deus te tiver dado repouso de todos os teus inimigos em redor, na terra que o Senhor teu Deus te dá por herança, para possuí-la, então apagarás a memória de Amaleque de debaixo do céu; não te esqueças. ",
   "",
-  "*************fim**********************",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   "",
   "",
   "",
@@ -122,37 +124,36 @@ var parasha491 =[
   "",
   "",
   "",//63
-
 ]
-var parasha492 = [
+var parasha484=[
   "Parashá 49",
-  "dia 2",
-  "Deuteronômio 23",
-  "¹ Aquele a quem forem trilhados os testículos, ou cortado o membro viril, não entrará na congregação do Senhor. ",
-  "² Nenhum bastardo entrará na congregação do Senhor; nem ainda a sua décima geração entrará na congregação do Senhor. ",
-  "³ Nenhum amonita nem moabita entrará na congregação do Senhor; nem ainda a sua décima geração entrará na congregação do Senhor eternamente. ",
-  "⁴ Porquanto não saíram com pão e água, a receber-vos no caminho, quando saíeis do Egito; e porquanto alugaram contra ti a Balaão, filho de Beor, de Petor, de Mesopotâmia, para te amaldiçoar. ",
-  "⁵ Porém o Senhor teu Deus não quis ouvir Balaão; antes o Senhor teu Deus trocou em bênção a maldição; porquanto o Senhor teu Deus te amava. ",
-  "⁶ Não lhes procurarás nem paz nem bem em todos os teus dias para sempre. ",
-  "⁷ Não abominarás o edomeu, pois é teu irmão; nem abominarás o egípcio, pois estrangeiro foste na sua terra. ",
-  "⁸ Os filhos que lhes nascerem na terceira geração, cada um deles entrará na congregação do Senhor. ",
-  "⁹ Quando o exército sair contra os teus inimigos, então te guardarás de toda a coisa má. ",
-  "¹⁰ Quando entre ti houver alguém que, por algum acidente noturno, não estiver limpo, sairá fora do arraial; não entrará no meio dele. ",
-  "¹¹ Porém será que, declinando a tarde, se lavará em água; e, em se pondo o sol, entrará no meio do arraial. ",
-  "¹² Também terás um lugar fora do arraial, para onde sairás. ",
-  "¹³ E entre as tuas armas terás uma pá; e será que, quando estiveres assentado, fora, então com ela cavarás e, virando-te, cobrirás o que defecaste. ",
-  "¹⁴ Porquanto o Senhor teu Deus anda no meio de teu arraial, para te livrar, e entregar a ti os teus inimigos; pelo que o teu arraial será santo, para que ele não veja coisa feia em ti, e se aparte de ti. ",
-  "¹⁵ Não entregarás a seu senhor o servo que fugiu do seu senhor para se acolher a ti; ",
-  "¹⁶ Contigo ficará, no meio de ti, no lugar que escolher em alguma das tuas portas, onde lhe agradar; não o oprimirás. ",
-  "¹⁷ Não haverá prostituta dentre as filhas de Israel; nem haverá sodomita dentre os filhos de Israel. ",
-  "¹⁸ Não trarás o salário da prostituta nem preço de um sodomita à casa do Senhor teu Deus por qualquer voto; porque ambos são igualmente abominação ao Senhor teu Deus. ",
-  "¹⁹ A teu irmão não emprestarás com juros: juros em dinheiro, juros em comida, juros em qualquer coisa que se empreste com juros. ",
-  "²⁰ Ao estranho emprestarás com juros, porém a teu irmão não emprestarás com juros; para que o Senhor teu Deus te abençoe em tudo que puseres a tua mão, na terra a qual vais a possuir. ",
-  "²¹ Quando fizeres algum voto ao Senhor teu Deus, não tardarás em cumpri-lo; porque o Senhor teu Deus certamente o requererá de ti, e em ti haverá pecado. ",
-  "²² Porém, abstendo-te de votar, não haverá pecado em ti. ",
-  "²³ O que saiu dos teus lábios guardarás, e cumprirás, tal como voluntariamente votaste ao Senhor teu Deus, declarando-o pela tua boca. ",
-  "²⁴ Quando entrares na vinha do teu próximo, comerás uvas conforme ao teu desejo até te fartares, porém não as porás no teu cesto. ",
-  "²⁵ Quando entrares na seara do teu próximo, com a tua mão arrancarás as espigas; porém não porás a foice na seara do teu próximo. ",
+  "dia 4",
+  "HAFTARÁ HI TETSE",
+  "******************************************************************************************",
+  "Isaias 52 v 13",
+  "13 Eis que o meu servo procederá com prudência; será exaltado, e elevado, e mui sublime.",
+  "*******************************************************************************************",
+  "Isaias 54 v 1 ate 10",
+  "¹ Canta alegremente, ó estéril, que não deste à luz; rompe em cântico, e exclama com alegria, tu que não tiveste dores de parto; porque mais são os filhos da mulher solitária, do que os filhos da casada, diz o Senhor. ",
+  "² Amplia o lugar da tua tenda, e estendam-se as cortinas das tuas habitações; não o impeças; alonga as tuas cordas, e fixa bem as tuas estacas. ",
+  "³ Porque transbordarás para a direita e para a esquerda; e a tua descendência possuirá os gentios e fará que sejam habitadas as cidades assoladas. ",
+  "⁴ Não temas, porque não serás envergonhada; e não te envergonhes, porque não serás humilhada; antes te esquecerás da vergonha da tua mocidade, e não te lembrarás mais do opróbrio da tua viuvez. ",
+  "⁵ Porque o teu Criador é o teu marido; o Senhor dos Exércitos é o seu nome; e o Santo de Israel é o teu Redentor; que é chamado o Deus de toda a terra. ",
+  "⁶ Porque o Senhor te chamou como a mulher desamparada e triste de espírito; como a mulher da mocidade, que fora desprezada, diz o teu Deus. ",
+  "⁷ Por um breve momento te deixei, mas com grandes misericórdias te recolherei; ",
+  "⁸ Com um pouco de ira escondi a minha face de ti por um momento; mas com benignidade eterna me compadecerei de ti, diz o Senhor, o teu Redentor. ",
+  "⁹ Porque isto será para mim como as águas de Noé; pois jurei que as águas de Noé não passariam mais sobre a terra; assim jurei que não me irarei mais contra ti, nem te repreenderei. ",
+  "¹⁰ Porque os montes se retirarão, e os outeiros serão abalados; porém a minha benignidade não se apartará de ti, e a aliança da minha paz não mudará, diz o Senhor que se compadece de ti. ",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   "",
   "",
   "",
@@ -181,7 +182,6 @@ var parasha492 = [
   "",
   "",
   "",//63
-
 ]
 
 var parasha4830 =[
@@ -249,23 +249,20 @@ var parasha4830 =[
 
 ]
 
-
-
-
-
-
-
-
-
- 
-if (dia == 31) {
-  parasha=parasha4931
+if (dia==3) {
+  if (hor<11) {
+    parasha=parasha483m
+  }
+  
 }
-if (dia==1) {
-  parasha=parasha491
+if (dia==3) {
+  if (hor>11) {
+    parasha=parasha483t
+  }
+  
 }
-if (dia==2) {
-  parasha=parasha492
+if (dia==4) {
+  parasha=parasha484
 }
   
 
@@ -273,7 +270,6 @@ if (dia==2) {
    
 
 export {parasha}
-
 
 
 
