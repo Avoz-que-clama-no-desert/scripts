@@ -11,6 +11,27 @@ document.addEventListener('contextmenu', function(e) {
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
 
+var qvotaram =[]
+// aqui busca o objeto do storege
+const arrayRecuperadoString = localStorage.getItem('votos');
+
+//aqui transfor o objeto JSON para array
+const meuArrayRecuperado = JSON.parse(arrayRecuperadoString);
+
+// voltando array para o principal
+if (meuArrayRecuperado == null) {
+    
+} else {
+  qvotaram= meuArrayRecuperado  
+}
+
+var gravarposi=qvotaram.length;
+var cont= parseInt(gravarposi) 
+var posi=0 
+alert(gravarposi)
+
+/******************************************************** */
+
 var hor=0
 var minu=0
 setInterval(() => {
@@ -22,7 +43,7 @@ setInterval(() => {
 
 
 
-var qvotaram =[]
+
 
 
 
@@ -30,6 +51,7 @@ var qvotaram =[]
 var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
 
+// iniciei as votação
 document.querySelector(".init").addEventListener("click",()=>{
     
     document.querySelector(".eleitor").style.display="block"
@@ -38,6 +60,8 @@ document.querySelector(".init").addEventListener("click",()=>{
     document.querySelector(".init").style.display="none"  
 })
 //********************************************** */
+
+// aqui entra para finalizar eleições
 var audio = document.querySelector(".audio")
 addEventListener("keydown", (event) => {
     if (event.key == "Home") {
@@ -62,12 +86,16 @@ var espaco = "    "
 
 
 var eleit = ""
-
+var blo=""
+var apt = ""
+// aqui confirma o eleitor
 confirmaeleitor.addEventListener("click",() =>{
  eleit=document.querySelector(".iput").value;
 
 
 var confere = eleitores.find(eleitores =>eleitores.nome===eleit)
+blo =confere.bloco;
+apt = confere.ap
 
 var javotou = qvotaram.find(qvotaram =>qvotaram.nome===eleit)
 
@@ -77,22 +105,36 @@ if (javotou == undefined) {
     
 
 } else {
-var hora = hor+":"+minu
-alert(hora)
+var Hora = hor+":"+minu
+
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="block"
-    const pai = document.querySelector(".controle")
-
     
-    const p = document.createElement("p")
-    p.textContent="Nome:"+ confere.nome +espaco+"bloco:"+ confere.bloco+espaco+"Ap:"+ confere.ap+espaco+"Hora"+ hora
 
-    pai.appendChild(p)
-
-   var votaram = {nome:eleit,hora:hora}
+   var votaram = {nome:eleit,bloco:blo,ap:apt,hora:Hora}
     
     qvotaram.push(votaram)
+        // converter array para string
+        var arraystring =JSON.stringify(qvotaram)
+
+
+        // salvar no Storege
+        localStorage.setItem('votos',arraystring)
+  
+        document.querySelector(".iput").value=""
+         gravarposi++
+        if (meuArrayRecuperado == null) {
+      
+        } else {
+        qvotaram= meuArrayRecuperado
+         
+        }
+     
+
+    
+    
     document.querySelector(".iput").value=""
+    
   
 }
 
@@ -106,6 +148,7 @@ alert(hora)
 
 
 })
+/*************************************************************** */
 
 var chapa1=localStorage.getItem("chapa 1")
 var chapa2=localStorage.getItem("chapa 2")
@@ -123,50 +166,71 @@ var chapa=""
 
 
     imag1.addEventListener("click",()=>{
-        imag2.style.display="none"
-        imag3.style.display="none"
-        imag4.style.display="none"
+        imag1.style. backgroundColor="green";
+        imag2.style. backgroundColor="red";
+        imag3.style.backgroundColor="red";
+        imag4.style.backgroundColor="red";
+        imag1.disabled=true
+        imag2.disabled=true
+        imag3.disabled=true
+        imag4.disabled=true
         voto=localStorage.getItem(chapa1)
         var vote1=parseInt(voto) 
         vote1=parseInt(vote1)+1
         localStorage.setItem(chapa1,vote1)
         chapa=chapa1
+       
         
     })
     imag2.addEventListener("click",()=>{
-        imag1.style.display="none"
-        imag3.style.display="none"
-        imag4.style.display="none"
+        imag1.style.backgroundColor="red";
+        imag2.style.backgroundColor="green";
+        imag3.style.backgroundColor="red";
+        imag4.style.backgroundColor="red";
+        imag1.disabled=true
+        imag2.disabled=true
+        imag3.disabled=true
+        imag4.disabled=true
         voto=localStorage.getItem(chapa2)
         var vote2= voto
         vote2=parseInt(vote2)+1
         localStorage.setItem(chapa2,vote2)
         chapa=chapa2
+        
 
     })
     imag3.addEventListener("click",()=>{
-        imag2.style.display="none"
-        imag1.style.display="none"
-        imag4.style.display="none"
+        imag2.style.backgroundColor="red";
+        imag3.style.backgroundColor="green";
+        imag1.style.backgroundColor="red";
+        imag4.style.backgroundColor="red";
         voto=localStorage.getItem(chapa3)
         var vote3= voto
         vote3=parseInt(vote3)+1
         localStorage.setItem(chapa3,vote3)
         chapa=chapa3
+       
 
     })
     imag4.addEventListener("click",()=>{
-        imag2.style.display="none"
-        imag3.style.display="none"
-        imag1.style.display="none"
+        imag2.style.backgroundColor="red";
+        imag3.style.backgroundColor="red";
+        imag1.style.backgroundColor="red";
+        imag4.style.backgroundColor="green";
+        imag1.disabled=true
+        imag2.disabled=true
+        imag3.disabled=true
+        imag4.disabled=true
         voto=localStorage.getItem(chapa4)
         var vote4= voto
         vote4=parseInt(vote4)+1
         localStorage.setItem(chapa4,vote4)
         chapa=chapa4
+        
 
     })
 
+    // aqui confimar o voto finalizando
 document.querySelector(".btn").addEventListener("click",()=>{
     document.querySelector(".eleitor").style.display="block"
     document.querySelector(".contener").style.display="none"
@@ -174,6 +238,15 @@ document.querySelector(".btn").addEventListener("click",()=>{
     imag2.style.display="block" 
     imag3.style.display="block" 
     imag4.style.display="block"
+    imag1.disabled=false
+    imag2.disabled=false
+    imag3.disabled=false
+    imag4.disabled=false
+    imag1.style.backgroundColor="aqua";
+    imag2.style.backgroundColor="aqua";
+    imag3.style.backgroundColor="aqua";
+    imag4.style.backgroundColor="aqua";
+
     audio.src="https://avoz-que-clama-no-desert.github.io/audios/confirma-urna.mp3"
     audio.play() 
 
@@ -184,7 +257,7 @@ localStorage.setItem(eleit,chapa)
 
 })
 
-
+// aqui da o resultado do eleitor
 function resutado(){
     var controav1=localStorage.getItem(chapa1) 
     var controav2=localStorage.getItem(chapa2)
@@ -395,7 +468,7 @@ if (controav4> controav1) {
 }
 //******************************************************************************** */
 
-
+//cadastra chapa
 var nuchap =0
 addEventListener("keydown", (ev)=>{
   if (ev.key=="End") {
@@ -410,17 +483,22 @@ addEventListener("keydown", (ev)=>{
        var chapa = prompt("digite o nome da chapa ")
        localStorage.setItem("chapa "+nuchap,chapa)
        localStorage.setItem(chapa,0)
+       
     } 
     }
   } else {
     
   }
+  
 
     
 })
 
 
 //********************************************************************************** */
+
+
+// aqui finaliza eleições
 document.querySelector(".find").addEventListener("click",()=>{
    
 document.querySelector(".dispaly").style.display="none"
@@ -428,19 +506,40 @@ document.querySelector(".rodape").style.display="block"
 document.querySelector(".find").style.display="none"
 document.querySelector(".init").style.display="none" 
 document.querySelector(".controleh4").textContent="Final de votação; "+"  hrs:"+hor+":"+minu
- 
-window.print()
-
-var seta = setInterval(() => { 
- document.querySelector(".rodape").style.display="none"
- location.reload()
- localStorage.clear()
- 
- 
- clearInterval(seta)
-
+ var ipri = setInterval(() => {
+    if (posi==cont) {
+        
+        
+        clearInterval(ipri)
+        var seta = setInterval(() => { 
+            window.print()
+            document.querySelector(".rodape").style.display="none"
+            location.reload()
+            localStorage.clear()
     
-}, 3000);
+    
+            clearInterval(seta)
+            
+            posi=0
+       
+         }, 3000);
+          
+      
+    } else {
+        
+        
+        
+     posi++  
+    }
+    const pai = document.querySelector(".controle")
+    const p = document.createElement("p")
+        p.textContent="Nome: "+qvotaram[posi].nome+espaco+"bloco"+espaco+qvotaram[posi].bloco+espaco+"ap"+qvotaram[posi].ap+espaco+"hora;"+espaco+qvotaram[posi].hora
+    
+       pai.appendChild(p)
+ }, 100);
+
+
+
     
    
     
