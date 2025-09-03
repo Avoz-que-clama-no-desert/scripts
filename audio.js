@@ -7,7 +7,7 @@ var audio1 =[
     "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio22.mp3",//0
     "",//1
     "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio23.mp3",//2
-    "",//3
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio24.mp3",//3
     "",//4
     "",//5
     "",//6
@@ -43,7 +43,7 @@ var audio2 =[
     "",//0
     "",//1
     "",//2
-    "",//3
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio25.mp3",//3
     "",//4
     "",//5
     "",//6
@@ -85,6 +85,18 @@ var audio=""
  }
  if (dia==2) {
    audio=audio1
+ }
+ if (dia ==3) {
+  if (hor<11) {
+    audio=audio1
+  }
+  
+ }
+ if (dia ==3) {
+  if (hor>11) {
+    audio=audio2
+  }
+  
  }
 
 
