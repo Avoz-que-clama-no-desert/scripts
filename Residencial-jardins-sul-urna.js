@@ -6,12 +6,25 @@ document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
   }
 });
+// verificar se ta conectado com a internet
+if (navigator.onLine) {
+    
+  } else {
+    alert('Os dados de programação só é Carregado com a internet!');
+  }
+//**************************************** */
 
 
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
 import { senha } from "./eleitores.js";
+import { titulo } from "./eleitores.js";
+import { remetente } from "./eleitores.js";
+import { cnpj } from "./eleitores.js";
 
+document.querySelector(".h2titulo").textContent=titulo
+document.querySelector(".h2remete").textContent=remetente
+document.querySelector(".h2cnpj").textContent=cnpj
 var qvotaram =[]
 // aqui busca o objeto do storege
 const arrayRecuperadoString = localStorage.getItem('votos');
