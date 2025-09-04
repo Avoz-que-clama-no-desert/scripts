@@ -10,6 +10,7 @@ document.addEventListener('contextmenu', function(e) {
 
 import { eleitores } from "./eleitores.js";
 import { hoje } from "./urnadata.js";
+import { senha } from "./eleitores.js";
 
 var qvotaram =[]
 // aqui busca o objeto do storege
@@ -28,7 +29,7 @@ if (meuArrayRecuperado == null) {
 var gravarposi=qvotaram.length;
 var cont= parseInt(gravarposi) 
 var posi=0 
-alert(gravarposi)
+
 
 /******************************************************** */
 
@@ -53,7 +54,7 @@ var confirmaeleitor = document.querySelector(".confirmaeleitor")
 
 // iniciei as votação
 document.querySelector(".init").addEventListener("click",()=>{
-    
+   
     document.querySelector(".eleitor").style.display="block"
     document.querySelector(".controleh3").textContent="Inicio de votação; "+hoje
    
@@ -65,8 +66,8 @@ document.querySelector(".init").addEventListener("click",()=>{
 var audio = document.querySelector(".audio")
 addEventListener("keydown", (event) => {
     if (event.key == "Home") {
-        var senha = prompt("Digite senha do desenvolvedor")
-        if (senha==1979) {
+        var senha1 = prompt("Digite senha do desenvolvedor")
+        if (senha1==senha) {
     /***************final de votação******************************* */       
     document.querySelector(".eleitor").style.display="none"
     document.querySelector(".contener").style.display="none"
@@ -76,6 +77,8 @@ addEventListener("keydown", (event) => {
 
     resutado()
 
+        }else{
+            alert("Senha do desenvovedor incorreta!")
         }
 
     }
@@ -259,213 +262,222 @@ localStorage.setItem(eleit,chapa)
 
 // aqui da o resultado do eleitor
 function resutado(){
+    
+
     var controav1=localStorage.getItem(chapa1) 
     var controav2=localStorage.getItem(chapa2)
     var controav3=localStorage.getItem(chapa3)
     var controav4=localStorage.getItem(chapa4)
 
 
-    var v1=19
-    var v2=20
-    var v3=17
-    var v4=14
-
+    if (controav1 > controav2) {
+        // 1 maior 2 
+          if (controav1 > controav3) {
+             if (controav1 > controav2) {
+                  // 1 lugar
+                 document.querySelector(".contropn1").innerHTML="Campeão ("+chapa1+ "   "+controav1+")"
+             } else {
+                  // 2 lugar
+                 document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1  
+             }
+             
+          } else {
+            
+             if (controav1 > controav4) {
+                // 2 lugar
+                 document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1
+             } else {
+                 // 3 lugar
+                 document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1 
+             }
+          }    
+             
+         } else {
+         // aqui foi 1 menor que 2 
+             if (controav1 > controav3) {
+             // 1 maior 3
+     
+                 if (controav1 > controav4) {
+                     // aqui se ele for maior é 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1
+                 } else {
+                     // aqui se ele for maior é 3 lugar
+                    document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1
+                 }
+             } else {
+              // 1menor 3
+     
+                 if (controav1 > controav4) {
+                  // 1 maior 4
+                  // aqui se ele for maior é 3 lugar
+                  document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1
+                     
+                 } else {
+                 // 1 menor 4    
+                  // aqui se ele for maior é 4 lugar
+                  document.querySelector(".contropn4").innerHTML=chapa1+ "   "+controav1   
+                 }
+                  
+             } 
+         }
+/************************************************************************* */
+         if (controav2 > controav1) {
+            // 1 maior 2 
+              if (controav2 > controav3) {
+                 if (controav2 > controav4) {
+                     // 1 lugar
+                     document.querySelector(".contropn1").innerHTML="Campeão ("+chapa2+ "   "+controav2+")"
+                 } else {
+                      // 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa2+ "   "+controav2  
+                 }
+                 
+              } else {
+                
+                 if (controav2 > controav4) {
+                     // 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa2+ "   "+controav2
+                 } else {
+                     // 3 lugar
+                     document.querySelector(".contropn3").innerHTML=chapa2+ "   "+controav2 
+                 }
+              }    
+                 
+             } else {
+             // aqui foi 1 menor que 2 
+                 if (controav2 > controav3) {
+                 // 1 maior 3
+         
+                     if (controav2 > controav4) {
+                        // aqui se ele for maior é 2 lugar
+                         document.querySelector(".contropn2").innerHTML=chapa2+ "   "+controav2
+                     } else {
+                         // aqui se ele for maior é 3 lugar
+                        document.querySelector(".contropn3").innerHTML=chapa2+ "   "+controav2
+                     }
+                 } else {
+                  // 1menor 3
+         
+                     if (controav2 > controav4) {
+                      // 1 maior 4
+                      // aqui se ele for maior é 3 lugar
+                      document.querySelector(".contropn3").innerHTML=chapa2+ "   "+controav2
+                         
+                     } else {
+                     // 1 menor 4    
+                     // aqui se ele for maior é 4 lugar
+                      document.querySelector(".contropn4").innerHTML=chapa2+ "   "+controav2  
+                     }
+                      
+                 } 
+             }
+        /*********************************************************** */     
+        if (controav3 > controav1) {
+            // 1 maior 2 
+              if (controav3 > controav2) {
+                 if (controav3 > controav4) {
+                     // 1 lugar
+                     document.querySelector(".contropn1").innerHTML="Campeão ("+chapa3+ "   "+controav3+")"
+                 } else {
+                      // 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa3+ "   "+controav3  
+                 }
+                 
+              } else {
+                
+                 if (controav3 > controav4) {
+                     // 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa3+ "   "+controav3
+                 } else {
+                     // 3 lugar
+                     document.querySelector(".contropn3").innerHTML=chapa3+ "   "+controav3
+                 }
+              }    
+                 
+             } else {
+             // aqui foi 1 menor que 2 
+                 if (controav3 > controav2) {
+                 // 1 maior 3
+         
+                     if (controav3 > controav4) {
+                        // aqui se ele for maior é 2 lugar
+                         document.querySelector(".contropn2").innerHTML=chapa3+ "   "+controav3
+                     } else {
+                         // aqui se ele for maior é 3 lugar
+                        document.querySelector(".contropn3").innerHTML=chapa3+ "   "+controav3
+                     }
+                 } else {
+                  // 1menor 3
+         
+                     if (controav3 > controav4) {
+                      // 1 maior 4
+                      // aqui se ele for maior é 3 lugar
+                      document.querySelector(".contropn3").innerHTML=chapa3+ "   "+controav3
+                         
+                     } else {
+                     // 1 menor 4    
+                     // aqui se ele for maior é 4 lugar
+                      document.querySelector(".contropn4").innerHTML=chapa3+ "   "+controav3   
+                     }
+                      
+                 } 
+             }
+         /************************************************************************ */    
+         if (controav4 > controav1) {
+            // 1 maior 2 
+              if (controav4 > controav2) {
+                 if (controav4 > controav3) {
+                     // 1 lugar
+                     document.querySelector(".contropn1").innerHTML="Campeão ("+chapa4+ "   "+controav4+")"
+                 } else {
+                      // 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa4+ "   "+controav4  
+                 }
+                 
+              } else {
+                
+                 if (controav4 > controav3) {
+                     // 2 lugar
+                     document.querySelector(".contropn2").innerHTML=chapa4+ "   "+controav4
+                 } else {
+                     // 3 lugar
+                     document.querySelector(".contropn3").innerHTML=chapa4+ "   "+controav4 
+                 }
+              }    
+                 
+             } else {
+             // aqui foi 1 menor que 2 
+                 if (controav4 > controav2) {
+                 // 1 maior 3
+         
+                     if (controav4 > controav3) {
+                        // aqui se ele for maior é 2 lugar
+                         document.querySelector(".contropn2").innerHTML=chapa4+ "   "+controav4
+                     } else {
+                         // aqui se ele for maior é 3 lugar
+                        document.querySelector(".contropn3").innerHTML=chapa4+ "   "+controav4
+                     }
+                 } else {
+                  // 1menor 3
+         
+                     if (controav4 > controav3) {
+                      // 1 maior 4
+                      // aqui se ele for maior é 3 lugar
+                      document.querySelector(".contropn3").innerHTML=chapa4+ "   "+controav4
+                         
+                     } else {
+                     // 1 menor 4    
+                     // aqui se ele for maior é 4 lugar
+                      document.querySelector(".contropn4").innerHTML=chapa4+ "   "+controav4   
+                     }
+                      
+                 } 
+             }
      
 /************************************************************** */
-if (controav1 > controav2) {
-    
-    if (controav1 > controav3) {
-       
-        if (controav1 > controav4) {
-            //1 lugar
-            document.querySelector(".contropn1").innerHTML=chapa1+ "   "+controav1
-        } else {
-            //s2 lugar
-            document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1
-        }
-       
-        
-    } else {
-      
-      if (controav1 > controav4) {
-        document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1
-        
-      } else {
-        document.querySelector(".contropn4").innerHTML=chapa1+ "   "+controav1
-        
-      }  
-    }
-} else {
-
-    
-    if (controav1 > controav3) {
-        // 2 lgar
-        document.querySelector(".contropn2").innerHTML=chapa1+ "   "+controav1
-        
-    } else {
-        
-        if (controav1 > controav4) {
-            // 3 lugar
-            document.querySelector(".contropn3").innerHTML=chapa1+ "   "+controav1
-
-        } else {
-            //4 lugar
-            document.querySelector(".contropn4").innerHTML=chapa1+ "   "+controav1
-            
-        }
-        
-    }
-    
-}
-   
-/*************************************************** */
-if (controav2 > controav1) {
-    
-    if (controav2 > controav3) {
-        
-        if (controav2>controav4) {
-            //1 lugar
-            document.querySelector(".contropn1").textContent=chapa2+ "   "+controav2
-        } else {
-            //s2 lugar
-            document.querySelector(".contropn2").textContent=chapa2+ "   "+controav2
-        }
-       
-        
-    } else {
-     
-      if (controav2 > controav4) {
-        document.querySelector(".contropn3").textContent=chapa2+ "   "+controav2
-        
-      } else {
-        document.querySelector(".contropn4").textContent=chapa2+ "   "+controav2
-        
-      }  
-    }
-} else {
-
-    
-    if (controav2 > controav3) {
-        // 2 lgar
-        document.querySelector(".contropn2").textContent=chapa2+ "   "+controav2
-        
-    } else {
-        
-        if (controav2 > controav4) {
-            // 3 lugar
-            document.querySelector(".contropn3").textContent=chapa2+ "   "+controav2
-
-        } else {
-            //4 lugar
-            document.querySelector(".contropn4").textContent=chapa2+ "   "+controav2
-            
-        }
-        
-    }
-    
-}
-    
-/********************************************** */
-if (controav3 > controav1) {
-    
-    if (controav3 > controav2) {
-        
-        if (controav3 > controav4) {
-            //1 lugar
-            document.querySelector(".contropn1").textContent=chapa3+ "   "+controav3
-        } else {
-            //s2 lugar
-            document.querySelector(".contropn2").textContent=chapa3+ "   "+controav3
-        }
-       
-        
-    } else {
-      
-      if (controav3 > controav4) {
-        document.querySelector(".contropn3").textContent=chapa3+ "   "+controav3
-        
-      } else {
-        document.querySelector(".contropn4").textContent=chapa3+ "   "+controav3
-        
-      }  
-    }
-} else {
-
-    
-    if (controav3 > controav2) {
-        // 2 lgar
-        document.querySelector(".contropn2").textContent=chapa3+ "   "+controav3
-        
-    } else {
-        
-        if (controav3 > controav4) {
-            // 3 lugar
-            document.querySelector(".contropn3").textContent=chapa3+ "   "+controav3
-
-        } else {
-            //4 lugar
-            document.querySelector(".contropn4").textContent=chapa3+ "   "+controav3
-            
-        }
-        
-    }
-    
-}    
-//************************************************************ */
-if (controav4> controav1) {
-    
-    if (controav4 > controav2) {
-        
-        if (controav4 > controav3) {
-            //1 lugar
-            document.querySelector(".contropn1").textContent=chapa4+ "   "+controav4
-        } else {
-            //s2 lugar
-            document.querySelector(".contropn2").textContent=chapa4+ "   "+controav4
-        }
-       
-        
-    } else {
-      
-      if (controav4 > controav3) {
-        document.querySelector(".contropn3").textContent=chapa4+ "   "+controav4
-       
-      } else {
-        document.querySelector(".contropn4").textContent=chapa4+ "   "+controav4
-       
-      }  
-    }
-} else {
-
-    
-    if (controav4 > controav2) {
-        // 2 lgar
-        document.querySelector(".contropn2").textContent=chapa4+ "   "+controav4
-        
-    } else {
-        
-        if (controav4 > controav3) {
-            // 3 lugar
-            document.querySelector(".contropn3").textContent=chapa4+ "   "+controav4
-            
-        } else {
-            //4 lugar
-            document.querySelector(".contropn4").textContent=chapa4+ "   "+controav4
-            
-        }
-        
-    }
-    
-} 
-
-   
-
-    
-    
-
-
    
 }
+
 //******************************************************************************** */
 
 //cadastra chapa
@@ -473,7 +485,9 @@ var nuchap =0
 addEventListener("keydown", (ev)=>{
   if (ev.key=="End") {
      nuchap++
-    
+    if (nuchap>3) {
+        location.reload()
+    }
     if (nuchap>4) {
         
        alert("fim de inscrição")
@@ -506,8 +520,9 @@ document.querySelector(".rodape").style.display="block"
 document.querySelector(".find").style.display="none"
 document.querySelector(".init").style.display="none" 
 document.querySelector(".controleh4").textContent="Final de votação; "+"  hrs:"+hor+":"+minu
- var ipri = setInterval(() => {
-    if (posi==cont) {
+cont=qvotaram.length;
+var ipri = setInterval(() => {
+    if (cont==posi) {
         
         
         clearInterval(ipri)
@@ -529,14 +544,17 @@ document.querySelector(".controleh4").textContent="Final de votação; "+"  hrs:
         
         
         
-     posi++  
+       
     }
+
     const pai = document.querySelector(".controle")
     const p = document.createElement("p")
-        p.textContent="Nome: "+qvotaram[posi].nome+espaco+"bloco"+espaco+qvotaram[posi].bloco+espaco+"ap"+qvotaram[posi].ap+espaco+"hora;"+espaco+qvotaram[posi].hora
+    p.textContent="Nome: "+qvotaram[posi].nome+espaco+"bloco"+espaco+qvotaram[posi].bloco+espaco+"ap"+qvotaram[posi].ap+espaco+"hora;"+espaco+qvotaram[posi].hora
     
        pai.appendChild(p)
- }, 100);
+       posi++
+ 
+    }, 100);
 
 
 
