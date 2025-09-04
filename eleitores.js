@@ -26,5 +26,12 @@ var eleitores = [
 ]
 var senha = "edu1979"
 
+var titulo="Aqui voçê adiciona a pauta da votação"
+var remetente="ex: Condominio céu azul "
+var cnpj="ex: CNPJ XX. XXX. XXX/XXXX-XX,"
+
 export {eleitores}
 export {senha}
+export {titulo}
+export {remetente}
+export {cnpj}
