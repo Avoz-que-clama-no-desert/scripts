@@ -24,4 +24,7 @@ var eleitores = [
     {nome:"z",bloco:"29",ap:"204"},
 
 ]
+var senha = "edu1979"
+
 export {eleitores}
+export {senha}
