@@ -185,8 +185,8 @@ var parasha484=[
 ]
 
 var parasha4830 =[
-    "Parashá 48",
-    "dia 30",
+    "Parashá 49",
+    "dia 6",
     "Shabbat Shalom á todos",
     "Hoje as 13:00 hrs ",
     "Reunião na congregação",
@@ -261,8 +261,8 @@ if (dia==3) {
   }
   
 }
-if (dia==4) {
-  parasha=parasha484
+if (dia==6) {
+  parasha=parasha4830
 }
   
 
