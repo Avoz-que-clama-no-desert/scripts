@@ -28,10 +28,11 @@ var senha = "edu1979"
 
 var titulo="Aqui voçê adiciona a pauta da votação"
 var remetente="ex: Condominio céu azul "
-var cnpj="ex: CNPJ XX. XXX. XXX/XXXX-XX,"
+var cnpj="ex: CNPJ 00. 123. 456/0001-78,"
 
 export {eleitores}
 export {senha}
 export {titulo}
 export {remetente}
 export {cnpj}
+
