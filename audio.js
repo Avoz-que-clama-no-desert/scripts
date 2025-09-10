@@ -14,13 +14,13 @@ var audio1 =[
     "",//7
     "",//8
     "",//9
-    "",//10
-    "",//11
-    "",//12
-    "",//13
-    "",//14
-    "",//15
-    "",//16
+    "https://avoz-que-clama-no-desert.github.io/audios/deuteronomio29-1-8.mp3",//10
+    "https://avoz-que-clama-no-desert.github.io/audios/isaias60.mp3",//11
+    "https://avoz-que-clama-no-desert.github.io/audios/",//12
+    "https://avoz-que-clama-no-desert.github.io/audios/",//13
+    "https://avoz-que-clama-no-desert.github.io/audios/",//14
+    "https://avoz-que-clama-no-desert.github.io/audios/",//15
+    "https://avoz-que-clama-no-desert.github.io/audios/",//16
     "",//17
     "",//18
     "",//19
@@ -77,27 +77,15 @@ var audio2 =[
 ]
 
 var audio=""
- if(dia == 31){
-   audio=audio1
- }
- if (dia==1) {
-   audio=audio1
- }
- if (dia==2) {
-   audio=audio1
- }
- if (dia ==3) {
-  if (hor<11) {
-    audio=audio1
-  }
-  
- }
- if (dia ==3) {
-  if (hor>11) {
-    audio=audio2
-  }
-  
- }
+
+
+if (dia==10) {
+  audio=audio1
+}
+if (dia==11) {
+  audio=audio1
+}
+
 
 
 
