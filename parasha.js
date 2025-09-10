@@ -6,32 +6,19 @@ var hor = data.getHours()
 
 var parasha=""
 
-var parasha483m =[
-  "Parashá 49",
-  "dia 3 manhã",
-  "Deuteronômio 24",
-  "¹ Quando um homem tomar uma mulher e se casar com ela, então será que, se não achar graça em seus olhos, por nela encontrar coisa indecente, far-lhe-á uma carta de repúdio, e lha dará na sua mão, e a despedirá da sua casa.",
-  "² Se ela, pois, saindo da sua casa, for e se casar com outro homem, ",
-  "³ E este também a desprezar, e lhe fizer carta de repúdio, e lha der na sua mão, e a despedir da sua casa, ou se este último homem, que a tomou para si por mulher, vier a morrer, ",
-  "⁴ Então seu primeiro marido, que a despediu, não poderá tornar a tomá-la, para que seja sua mulher, depois que foi contaminada; pois é abominação perante o Senhor; assim não farás pecar a terra que o Senhor teu Deus te dá por herança. ",
-  "⁵ Quando um homem for recém-casado não sairá à guerra, nem se lhe imporá encargo algum; por um ano inteiro ficará livre na sua casa para alegrar a mulher que tomou. ",
-  "⁶ Não se tomará em penhor ambas as mós, nem a mó de cima nem a de baixo; pois se penhoraria assim a vida. ",
-  "⁷ Quando se achar alguém que tiver furtado um dentre os seus irmãos, dos filhos de Israel, e escravizá-lo, ou vendê-lo, esse ladrão morrerá, e tirarás o mal do meio de ti. ",
-  "⁸ Guarda-te da praga da lepra, e tenhas grande cuidado de fazer conforme a tudo o que te ensinarem os sacerdotes levitas; como lhes tenho ordenado, terás cuidado de o fazer. ",
-  "⁹ Lembra-te do que o Senhor teu Deus fez a Miriã no caminho, quando saíste do Egito. ",
-  "¹⁰ Quando emprestares alguma coisa ao teu próximo, não entrarás em sua casa, para lhe tirar o penhor. ",
-  "¹¹ Fora ficarás; e o homem, a quem emprestaste, te trará fora o penhor. ",
-  "¹² Porém, se for homem pobre, não te deitarás com o seu penhor. ",
-  "¹³ Em se pondo o sol, sem falta lhe restituirás o penhor; para que durma na sua roupa, e te abençoe; e isto te será justiça diante do Senhor teu Deus. ",
-  "¹⁴ Não oprimirás o diarista pobre e necessitado de teus irmãos, ou de teus estrangeiros, que está na tua terra e nas tuas portas. ",
-  "¹⁵ No seu dia lhe pagarás a sua diária, e o sol não se porá sobre isso; porquanto pobre é, e sua vida depende disso; para que não clame contra ti ao Senhor, e haja em ti pecado. ",
-  "¹⁶ Os pais não morrerão pelos filhos, nem os filhos pelos pais; cada um morrerá pelo seu pecado. ",
-  "¹⁷ Não perverterás o direito do estrangeiro e do órfão; nem tomarás em penhor a roupa da viúva. ",
-  "¹⁸ Mas lembrar-te-ás de que foste servo no Egito, e de que o Senhor teu Deus te livrou dali; pelo que te ordeno que faças isso. ",
-  "¹⁹ Quando no teu campo colheres a tua colheita, e esqueceres um molho no campo, não tornarás a tomá-lo; para o estrangeiro, para o órfão, e para a viúva será; para que o Senhor teu Deus te abençoe em toda a obra das tuas mãos. ",
-  "²⁰ Quando sacudires a tua oliveira, não voltarás para colher o fruto dos ramos; para o estrangeiro, para o órfão, e para a viúva será. ",
-  "²¹ Quando vindimares a tua vinha, não voltarás para rebuscá-la; para o estrangeiro, para o órfão, e para a viúva será. ",
-  "²² E lembrar-te-ás de que foste servo na terra do Egito; portanto te ordeno que faças isso. ",
+
+var parasha5010=[
+  "Parashá 50",
+  "dia 10",
+  "Deuteronômio 29 v 1 ao 8",
+  "¹ São estas as palavras da aliança que o Senhor ordenou que Moisés fizesse com os filhos de Israel na terra de Moabe, além da aliança que havia feito com eles em Horebe.  ",
+  "² Moisés mandou reunir todo o Israel. Então lhes disse:— Vocês viram com os seus próprios olhos tudo o que o Senhor fez na terra do Egito com Faraó, com todos os seus servos, e com toda a sua terra.   ",
+  "³ Viram grandes provas, sinais e grandes maravilhas.  ",
+  "⁴ Mas até o dia de hoje o Senhor não deu a vocês um coração para entender, nem olhos para ver, nem ouvidos para ouvir.  ",
+  "⁵ Durante quarenta anos eu os conduzi pelo deserto e, nesse tempo, não envelheceram as roupas que vocês usavam, nem se gastaram as sandálias que vocês calçavam.  ",
+  "⁶ Vocês não comeram pão, nem beberam vinho ou bebida forte, para que soubessem que eu sou o Senhor, seu Deus.  ",
+  "⁷ Quando chegaram a este lugar, Seom, rei de Hesbom, e Ogue, rei de Basã, saíram ao nosso encontro para lutar contra nós, e nós os derrotamos.  ",
+  "⁸ Tomamos a terra deles e a demos por herança aos rubenitas, aos gaditas e à meia tribo dos manassitas. ",
   "",
   "",
   "",
@@ -39,111 +26,6 @@ var parasha483m =[
   "",
   "",
   "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",//63
-]
-var parasha483t=[
-  "Parashá 49",
-  "dia 3 manhã",
-  "Deuteronômio 25",
-  "¹ Quando houver contenda entre alguns, e vierem a juízo, para que os julguem, ao justo justificarão, e ao injusto condenarão. ",
-  "² E será que, se o injusto merecer açoites, o juiz o fará deitar-se, para que seja açoitado diante de si; segundo a sua culpa, será o número de açoites. ",
-  "³ Quarenta açoites lhe fará dar, não mais; para que, porventura, se lhe fizer dar mais açoites do que estes, teu irmão não fique envilecido aos teus olhos. ",
-  "⁴ Não atarás a boca ao boi, quando trilhar. ",
-  "⁵ Quando irmãos morarem juntos, e um deles morrer, e não tiver filho, então a mulher do falecido não se casará com homem estranho, de fora; seu cunhado estará com ela, e a receberá por mulher, e fará a obrigação de cunhado para com ela. ",
-  "⁶ E o primogênito que ela lhe der será sucessor do nome do seu irmão falecido, para que o seu nome não se apague em Israel. ",
-  "⁷ Porém, se o homem não quiser tomar sua cunhada, esta subirá à porta dos anciãos, e dirá: Meu cunhado recusa suscitar a seu irmão nome em Israel; não quer cumprir para comigo o dever de cunhado. ",
-  "⁸ Então os anciãos da sua cidade o chamarão, e com ele falarão; e, se ele persistir, e disser: Não quero tomá-la; ",
-  "⁹ Então sua cunhada se chegará a ele na presença dos anciãos, e lhe descalçará o sapato do pé, e lhe cuspirá no rosto, e protestará, e dirá: Assim se fará ao homem que não edificar a casa de seu irmão; ",
-  "¹⁰ E o seu nome se chamará em Israel: A casa do descalçado. ",
-  "¹¹ Quando pelejarem dois homens, um contra o outro, e a mulher de um chegar para livrar a seu marido da mão do que o fere, e ela estender a sua mão, e lhe pegar pelas suas vergonhas, ",
-  "¹² Então cortar-lhe-ás a mão; não a poupará o teu olho. ",
-  "¹³ Na tua bolsa não terás pesos diversos, um grande e um pequeno. ",
-  "¹⁴ Na tua casa não terás dois tipos de efa, um grande e um pequeno. ",
-  "¹⁵ Peso inteiro e justo terás; efa inteiro e justo terás; para que se prolonguem os teus dias na terra que te dará o Senhor teu Deus. ",
-  "¹⁶ Porque abominação é ao Senhor teu Deus todo aquele que faz isto, todo aquele que fizer injustiça. ",
-  "¹⁷ Lembra-te do que te fez Amaleque no caminho, quando saías do Egito; ",
-  "¹⁸ Como te saiu ao encontro no caminho, e feriu na tua retaguarda todos os fracos que iam atrás de ti, estando tu cansado e afadigado; e não temeu a Deus. ",
-  "¹⁹ Será, pois, que, quando o Senhor teu Deus te tiver dado repouso de todos os teus inimigos em redor, na terra que o Senhor teu Deus te dá por herança, para possuí-la, então apagarás a memória de Amaleque de debaixo do céu; não te esqueças. ",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",//63
-]
-var parasha484=[
-  "Parashá 49",
-  "dia 4",
-  "HAFTARÁ HI TETSE",
-  "******************************************************************************************",
-  "Isaias 52 v 13",
-  "13 Eis que o meu servo procederá com prudência; será exaltado, e elevado, e mui sublime.",
-  "*******************************************************************************************",
-  "Isaias 54 v 1 ate 10",
-  "¹ Canta alegremente, ó estéril, que não deste à luz; rompe em cântico, e exclama com alegria, tu que não tiveste dores de parto; porque mais são os filhos da mulher solitária, do que os filhos da casada, diz o Senhor. ",
-  "² Amplia o lugar da tua tenda, e estendam-se as cortinas das tuas habitações; não o impeças; alonga as tuas cordas, e fixa bem as tuas estacas. ",
-  "³ Porque transbordarás para a direita e para a esquerda; e a tua descendência possuirá os gentios e fará que sejam habitadas as cidades assoladas. ",
-  "⁴ Não temas, porque não serás envergonhada; e não te envergonhes, porque não serás humilhada; antes te esquecerás da vergonha da tua mocidade, e não te lembrarás mais do opróbrio da tua viuvez. ",
-  "⁵ Porque o teu Criador é o teu marido; o Senhor dos Exércitos é o seu nome; e o Santo de Israel é o teu Redentor; que é chamado o Deus de toda a terra. ",
-  "⁶ Porque o Senhor te chamou como a mulher desamparada e triste de espírito; como a mulher da mocidade, que fora desprezada, diz o teu Deus. ",
-  "⁷ Por um breve momento te deixei, mas com grandes misericórdias te recolherei; ",
-  "⁸ Com um pouco de ira escondi a minha face de ti por um momento; mas com benignidade eterna me compadecerei de ti, diz o Senhor, o teu Redentor. ",
-  "⁹ Porque isto será para mim como as águas de Noé; pois jurei que as águas de Noé não passariam mais sobre a terra; assim jurei que não me irarei mais contra ti, nem te repreenderei. ",
-  "¹⁰ Porque os montes se retirarão, e os outeiros serão abalados; porém a minha benignidade não se apartará de ti, e a aliança da minha paz não mudará, diz o Senhor que se compadece de ti. ",
   "",
   "",
   "",
@@ -184,13 +66,74 @@ var parasha484=[
   "",//63
 ]
 
-var parasha4830 =[
-    "Parashá 49",
+var parasha5011=[
+  "Parashá 50",
+  "dia 11",
+  "Isaías 60",
+  "¹ Levanta-te, resplandece, porque vem a tua luz, e a glória do Senhor vai nascendo sobre ti; ",
+  "² Porque eis que as trevas cobriram a terra, e a escuridão os povos; mas sobre ti o Senhor virá surgindo, e a sua glória se verá sobre ti. ",
+  "³ E os gentios caminharão à tua luz, e os reis ao resplendor que te nasceu. ",
+  "⁴ Levanta em redor os teus olhos, e vê; todos estes já se ajuntaram, e vêm a ti; teus filhos virão de longe, e tuas filhas serão criadas ao teu lado. ",
+  "⁵ Então o verás, e serás iluminado, e o teu coração estremecerá e se alargará; porque a abundância do mar se tornará a ti, e as riquezas dos gentios virão a ti. ",
+  "⁶ A multidão de camelos te cobrirá, os dromedários de Midiã e Efá; todos virão de Sabá; ouro e incenso trarão, e publicarão os louvores do Senhor. ",
+  "⁷ Todas as ovelhas de Quedar se congregarão a ti; os carneiros de Nebaiote te servirão; com agrado subirão ao meu altar, e eu glorificarei a casa da minha glória. ",
+  "⁸ Quem são estes que vêm voando como nuvens, e como pombas às suas janelas? ",
+  "⁹ Certamente as ilhas me aguardarão, e primeiro os navios de Társis, para trazer teus filhos de longe, e com eles a sua prata e o seu ouro, para o nome do Senhor teu Deus, e para o Santo de Israel, porquanto ele te glorificou. ",
+  "¹⁰ E os filhos dos estrangeiros edificarão os teus muros, e os seus reis te servirão; porque no meu furor te feri, mas na minha benignidade tive misericórdia de ti. ",
+  "¹¹ E as tuas portas estarão abertas de contínuo, nem de dia nem de noite se fecharão; para que tragam a ti as riquezas dos gentios, e, conduzidos com elas, os seus reis. ",
+  "¹² Porque a nação e o reino que não te servirem perecerão; sim, essas nações serão de todo assoladas. ",
+  "¹³ A glória do Líbano virá a ti; a faia, o pinheiro, e o álamo conjuntamente, para ornarem o lugar do meu santuário, e glorificarei o lugar dos meus pés. ",
+  "¹⁴ Também virão a ti, inclinando-se, os filhos dos que te oprimiram; e prostrar-se-ão às plantas dos teus pés todos os que te desprezaram; e chamar-te-ão a cidade do Senhor, a Sião do Santo de Israel. ",
+  "¹⁵ Em lugar de seres deixada, e odiada, de modo que ninguém passava por ti, far-te-ei uma excelência perpétua, um gozo de geração em geração. ",
+  "¹⁶ E mamarás o leite dos gentios, e alimentar-te-ás ao peito dos reis; e saberás que eu sou o Senhor, o teu Salvador, e o teu Redentor, o Poderoso de Jacó. ",
+  "¹⁷ Por cobre trarei ouro, e por ferro trarei prata, e por madeira, bronze, e por pedras, ferro; e farei pacíficos os teus oficiais e justos os teus exatores. ",
+  "¹⁸ Nunca mais se ouvirá de violência na tua terra, desolação nem destruição nos teus termos; mas aos teus muros chamarás Salvação, e às tuas portas Louvor. ",
+  "¹⁹ Nunca mais te servirá o sol para luz do dia nem com o seu resplendor a lua te iluminará; mas o Senhor será a tua luz perpétua, e o teu Deus a tua glória. ",
+  "²⁰ Nunca mais se porá o teu sol, nem a tua lua minguará; porque o Senhor será a tua luz perpétua, e os dias do teu luto findarão. ",
+  "²¹ E todos os do teu povo serão justos, para sempre herdarão a terra; serão renovos por mim plantados, obra das minhas mãos, para que eu seja glorificado. ",
+  "²² O menor virá a ser mil, e o mínimo uma nação forte; eu, o Senhor, ao seu tempo o farei prontamente. ",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",//63
+
+]
+
+
+
+var Shabbat =[
+    "Parashá 50",
     "dia 6",
     "Shabbat Shalom á todos",
     "Hoje as 13:00 hrs ",
     "Reunião na congregação",
-    "",
+    "as 15hrs estudo para casal",
     "",
     "",
     "",
@@ -249,22 +192,9 @@ var parasha4830 =[
 
 ]
 
-if (dia==3) {
-  if (hor<11) {
-    parasha=parasha483m
-  }
-  
+if (dia==10) {
+  parasha=parasha5010
 }
-if (dia==3) {
-  if (hor>11) {
-    parasha=parasha483t
-  }
-  
-}
-if (dia==6) {
-  parasha=parasha4830
-}
-  
 
   
    
